@@ -20,14 +20,14 @@ sudo apt update
 sudo apt install ros-humble-swb-power
 ```
 
-### Ubuntu 24.04 (Jazzy Jellyfish) - ROS 2 Jazzy
+### Ubuntu 24.04 (Noble Numbat) - ROS 2 Jazzy
 
 ```bash
 # Install GPG key
 curl -fsSL https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/public.key | sudo gpg --dearmor -o /usr/share/keyrings/swb-robotics-archive-keyring.gpg
 
 # Add repository
-echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jazzy main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ noble main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
 
 # Update and install
 sudo apt update
@@ -66,7 +66,7 @@ git push
 - `ros-humble-swb-web-bridge` (arm64) - Professional Web-to-ROS2 Bridge
 - `ros-humble-swb-power` (amd64) - Autonomous robot docking system for wireless charging stations
 
-**Ubuntu 24.04 (Jazzy Jellyfish):**
+**Ubuntu 24.04 (Noble Numbat):**
 - Ready for ROS 2 Jazzy packages (no packages yet)
 
 **Architectures:**
@@ -129,7 +129,7 @@ apt list | grep swb
 ```
 repo/
 ├── conf/
-│   ├── distributions      # Repository configuration (supports jammy & jazzy)
+│   ├── distributions      # Repository configuration (supports jammy & noble)
 │   └── updates            # Update configuration
 ├── db/                    # Package database
 ├── pool/                  # Package storage pool
@@ -145,7 +145,7 @@ repo/
 │   │       ├── binary-amd64/  # AMD64 package indexes
 │   │       ├── binary-arm64/  # ARM64 package indexes
 │   │       └── binary-i386/   # i386 package indexes
-│   └── jazzy/
+│   └── noble/
 │       └── main/
 │           ├── binary-amd64/  # AMD64 package indexes
 │           ├── binary-arm64/  # ARM64 package indexes
