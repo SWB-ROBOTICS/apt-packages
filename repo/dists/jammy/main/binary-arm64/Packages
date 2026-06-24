@@ -1,0 +1,16 @@
+Package: ros-humble-swb-web-bridge
+Version: 0.0.1-0jammy
+Architecture: arm64
+Maintainer: "Manara Systems" <dev@manara.com>
+Installed-Size: 2063
+Depends: libc6 (>= 2.34), libcpp-httplib0 (>= 0.10.3+ds), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libpqxx-6.4 (>= 6.4), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-ament-index-cpp, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rcpputils, ros-humble-rmw, ros-humble-rosidl-typesupport-cpp, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Homepage: https://index.ros.org/p/swb_web_bridge/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-web-bridge/ros-humble-swb-web-bridge_0.0.1-0jammy_arm64.deb
+Size: 563424
+SHA256: 16ffe38c642e4b76eb491543a8a2f71ee6389e48fe1adcf9cf945031f37a0f54
+SHA1: ec6a629b65b2a1b8e42a8e53d8279fcd9639fcbc
+MD5sum: 348094502f6d10be30190ea717f16f7e
+Description: Professional Web-to-ROS2 Bridge
+
