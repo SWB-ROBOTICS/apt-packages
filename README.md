@@ -72,6 +72,7 @@ git push
 **Architectures:**
 - amd64 (64-bit Intel/AMD)
 - arm64 (64-bit ARM)
+- armhf (32-bit ARM hard-float)
 - i386 (32-bit Intel)
 
 ## Troubleshooting
@@ -144,11 +145,13 @@ repo/
 │   │   └── main/
 │   │       ├── binary-amd64/  # AMD64 package indexes
 │   │       ├── binary-arm64/  # ARM64 package indexes
+│   │       ├── binary-armhf/  # ARM hard-float package indexes
 │   │       └── binary-i386/   # i386 package indexes
 │   └── noble/
 │       └── main/
 │           ├── binary-amd64/  # AMD64 package indexes
 │           ├── binary-arm64/  # ARM64 package indexes
+│           ├── binary-armhf/  # ARM hard-float package indexes
 │           └── binary-i386/   # i386 package indexes
 ├── public.key             # GPG public key for repository signing
 └── add-package.sh         # Script to add new packages
