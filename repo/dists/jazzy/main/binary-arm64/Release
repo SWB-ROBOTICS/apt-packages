@@ -1,5 +1,0 @@
-Component: main
-Origin: SWB Robotics
-Label: SWB Robotics Custom ROS Repo
-Architecture: arm64
-Description: Official APT repository for SWB Robotics custom ROS2 Jazzy packages deployed on various hardware platforms.
