@@ -1,0 +1,37 @@
+Origin: SWB Robotics
+Label: SWB Robotics Custom ROS Repo
+Codename: jazzy
+Date: Wed, 24 Jun 2026 12:14:07 UTC
+Architectures: amd64 arm64 i386
+Components: main
+Description: Official APT repository for SWB Robotics custom ROS2 Jazzy packages deployed on various hardware platforms.
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ c3827200602aa6d0c651c53e8ade117c 214 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ c9cb8b492d8384afd59b1b5ecdba3ec8 214 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 05924dedc7f48590cc8e836c083b4657 213 main/binary-i386/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ eb30c2409d81f3fb998e018c682854c2feff41a4 214 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 04f20b577f66c2cdeff64b98fe5fe488d1b25d92 214 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 3c484142fb040a021916f05ec45ea2a447949d41 213 main/binary-i386/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 28fb92ca615b8e32920a4eddba461921a65653ca09012e5c4da6eec915da576a 214 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 1cff9c08fc858ad9904d4607a98213916a7e974caae893af9307e3e407ab391c 214 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 17e48a49a73b77d42e9c8a03b7c8ab94140ae5a2beda6d3583c779c391c40782 213 main/binary-i386/Release
