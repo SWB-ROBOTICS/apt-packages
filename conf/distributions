@@ -1,0 +1,6 @@
+Origin: SWB Robotic
+Label: SWB Robotics Custom ROS Repo
+Codename: jammy
+Architectures: amd64 arm64
+Components: main
+Description: Official APT repository for SWB Robotics custom ROS2 Humble packages deployed on various hardware platforms.
