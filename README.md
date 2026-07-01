@@ -13,7 +13,7 @@ Choose your Ubuntu version and run these commands:
 curl -fsSL https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/public.key | sudo gpg --dearmor -o /usr/share/keyrings/swb-robotics-archive-keyring.gpg
 
 # Add repository
-echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
 
 # Update and install
 sudo apt update
@@ -27,7 +27,7 @@ sudo apt install ros-humble-swb-power
 curl -fsSL https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/public.key | sudo gpg --dearmor -o /usr/share/keyrings/swb-robotics-archive-keyring.gpg
 
 # Add repository
-echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ noble main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
 
 # Update and install
 sudo apt update
@@ -89,7 +89,7 @@ sudo rm /etc/apt/sources.list.d/swb-ros.list
 sudo rm -rf /var/lib/apt/lists/*
 
 # Re-add the repository (use the appropriate command from Quick Setup above)
-echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
 
 # Update
 sudo apt update
