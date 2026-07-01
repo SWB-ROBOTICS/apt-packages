@@ -8,10 +8,10 @@ Homepage: https://index.ros.org/p/power/#humble
 Priority: optional
 Section: misc
 Filename: pool/main/r/ros-humble-power/ros-humble-power_1.0.0-0jammy_arm64.deb
-Size: 176144
-SHA256: 1e1700f9dd84ff273d5ab06ffb9a292398b77a17804246b1a9123d98d0a35dc9
-SHA1: 898ab8156a400dac44b4ecd28edb336a455e1abd
-MD5sum: 852f4708f2b87e162b5932b9efe56258
+Size: 176152
+SHA256: 6a0a162f12ea34d876df781dcbcb8d6332a1de81625a4566ff5c9e540d12a940
+SHA1: 9104647d690b7e882b5f5b6cb9f8299c4a281380
+MD5sum: 92fc8df3087a58c0c539320f8709075a
 Description: Autonomous robot docking system for wireless charging stations using IR-based positioning
 
 Package: ros-humble-swb-web-bridge
