@@ -1,3 +1,19 @@
+Package: ros-humble-power
+Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: "Mohammed Almsitef" <mohammed.almsitef@swbrobotics.com>
+Installed-Size: 835
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Homepage: https://index.ros.org/p/power/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-power/ros-humble-power_1.0.0-0jammy_arm64.deb
+Size: 176158
+SHA256: 26005dd7228f40fd71a16c14569a5b60aca940a08ec2e22c5481da2f53b3cdd0
+SHA1: 7a612aa7045e60a074b2aa27d604b6e58853bf5d
+MD5sum: 5a5bf3e7d1d20a65e87f12d8dfc01f94
+Description: Autonomous robot docking system for wireless charging stations using IR-based positioning
+
 Package: ros-humble-swb-power
 Version: 1.0.0-0jammy
 Architecture: arm64
