@@ -1,4 +1,4 @@
-Package: ros-humble-power
+Package: ros-humble-swb-power
 Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: "Mohammed Almsitef" <mohammed.almsitef@swbrobotics.com>
