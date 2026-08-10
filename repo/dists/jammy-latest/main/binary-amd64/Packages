@@ -127,6 +127,22 @@ SHA1: 8bbf049707a821a8bc2f4ee536e37cd1c9194dd8
 MD5sum: 88df8254242dffd18b4693f641b6407f
 Description: Interface package scaffold for the new power_sdk architecture.
 
+Package: ros-humble-swb-robot
+Version: 1.0.0-0jammy+main16
+Architecture: amd64
+Maintainer: "root" <root@todo.todo>
+Installed-Size: 10131
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-nav2-msgs, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rosidl-default-runtime, ros-humble-slam-toolbox, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-power-interfaces, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools-interfaces, ros-humble-xacro
+Homepage: https://index.ros.org/p/swb_robot/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main16_amd64.deb
+Size: 1021994
+SHA256: abdc74b241e4ee0f37c2342a0b5324cb7e24d00d6d79ac822dfd52805467cdc1
+SHA1: 67d647c024774bfa1acca0da8441979e9b64ba9b
+MD5sum: adbc90cfd58a1e2e44aa67c4980b09a2
+Description: TODO: Package description
+
 Package: ros-humble-swb-robot-description
 Version: 0.0.0-0jammy+main1
 Architecture: amd64
