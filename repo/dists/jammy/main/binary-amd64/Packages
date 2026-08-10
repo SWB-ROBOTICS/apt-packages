@@ -14,6 +14,23 @@ SHA1: d01254f0bd6cc3438fcf69a960780a11d9fb7706
 MD5sum: b095aebfaf8f72b24eb420dd3f93f57b
 Description: TODO: Package description
 
+Package: ros-humble-swb-battery
+Version: 0.0.2-0jammy
+Architecture: amd64
+Maintainer: "orangepi" <orangepi@todo.todo>
+Installed-Size: 406
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), nlohmann-json3-dev, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-swb-serial
+Homepage: https://index.ros.org/p/swb_battery/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-battery/ros-humble-swb-battery_0.0.2-0jammy_amd64.deb
+Size: 110084
+SHA256: 3c5746b0fa148d41ef4dcaa3f05936918cccd70e904ddfb074f979f630b920b6
+SHA1: 072669f3d64a948a6798cf1ca8fd3d75db12615f
+MD5sum: 834468ce79d1cb079cb523431f2d1f8b
+Description: A package for interfacing with JBD (Jiangsu BaoDun) battery management systems.
+ This package provides a C++ library for communicating with JBD batteries over serial communication, allowing reading of battery parameters such as voltage, current, temperature, and cell voltages.
+
 Package: ros-humble-swb-power
 Version: 1.0.0-0jammy
 Architecture: amd64
