@@ -1,5 +1,5 @@
 Package: ros-humble-swb-interactions
-Version: 0.0.0-0jammy+main1
+Version: 0.0.0-0jammy+main2
 Architecture: arm64
 Maintainer: "benni" <mohammdbenni4@gmail.com>
 Installed-Size: 350
@@ -7,11 +7,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-r
 Homepage: https://index.ros.org/p/swb_interactions/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.0.0-0jammy+main1_arm64.deb
-Size: 92560
-SHA256: 708abd3cb7280b4f3c520e6794a9a1d7eeb7acc3ae9ec723c13bb490ac4621eb
-SHA1: 3eb58bc5452730b11fd57644107125a75cddc365
-MD5sum: cb2b9237588681d38aeafb5d62decb29
+Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.0.0-0jammy+main2_arm64.deb
+Size: 92002
+SHA256: 4f2f9797256a1734d2e02f11c0df6d98172cac2e85434a52495c46b955f5579e
+SHA1: 12fa5d60a926aa702d833d45c6526c508b8f143d
+MD5sum: 9426d20c5b9a2dc1a0722cb6aa872370
 Description: TODO: Package description
 
 Package: ros-humble-swb-power
