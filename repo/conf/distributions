@@ -14,4 +14,10 @@ Components: main
 Description: Official APT repository for SWB Robotics custom ROS2 Jazzy packages deployed on various hardware platforms.
 SignWith: 7C36C00CA5284792
 
-
+Origin: SWB Robotics
+Label: SWB Robotics Latest (main)
+Codename: jammy-latest
+Architectures: amd64 arm64 i386 armhf
+Components: main
+Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Humble packages. NOT stable - for testing only.
+SignWith: 7C36C00CA5284792
