@@ -30,6 +30,22 @@ SHA1: f5abec3a0b75c122d55631a788afd2a8a07d2166
 MD5sum: 55027aa38e520218ad9f3fbc3166a135
 Description: Autonomous robot docking system for wireless charging stations using IR-based positioning
 
+Package: ros-humble-swb-robot-self-filter
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: "Lorenzo Terenzi" <lterenzi@ethz.ch>
+Installed-Size: 1395
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libassimp-dev, libbullet-dev, ros-humble-filters, ros-humble-geometry-msgs, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-resource-retriever, ros-humble-sensor-msgs, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-tinyxml2-vendor, ros-humble-urdf, ros-humble-visualization-msgs
+Homepage: http://ros.org/wiki/robot_self_filter
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-robot-self-filter/ros-humble-swb-robot-self-filter_1.0.0-0jammy_amd64.deb
+Size: 305808
+SHA256: 86a063fc04a54910bcaad524336eefa000028c72ce800edf22b3ae409a07c0e3
+SHA1: 7c3ca14a4f6d0cca99ffd6189d5beccae81ed727
+MD5sum: f9ae8c5baf95977b1ff5e7b65e011b8f
+Description: Filters the robot's body out of point clouds.
+
 Package: ros-humble-swb-serial
 Version: 1.2.1-0jammy
 Architecture: amd64
