@@ -111,3 +111,19 @@ MD5sum: f95595a7d45099eb809eea0ad3850199
 Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
  This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
 
+Package: ros-humble-swb-web-bridge
+Version: 0.0.1-0jammy
+Architecture: amd64
+Maintainer: "Manara Systems" <dev@manara.com>
+Installed-Size: 2604
+Depends: libc6 (>= 2.34), libcpp-httplib0 (>= 0.10.3+ds), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libboost-dev, libcpp-httplib-dev, libwebsocketpp-dev, ros-humble-ament-index-cpp, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rcl, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rcpputils, ros-humble-rmw, ros-humble-rosidl-typesupport-cpp, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Homepage: https://index.ros.org/p/swb_web_bridge/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-web-bridge/ros-humble-swb-web-bridge_0.0.1-0jammy_amd64.deb
+Size: 679858
+SHA256: ce54c2ee7418b5346c3ab1fb794cc71891d635a5548c7bcd63be7d63b863a340
+SHA1: 9a39c28761cce9976f3a4849e801e84f15ec7a52
+MD5sum: 6a8a478d22bdaec1bae4c1125276b206
+Description: Professional Web-to-ROS2 Bridge
+
