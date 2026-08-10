@@ -46,3 +46,19 @@ SHA1: 0d2072588fbd68609cf1317db289c17e36fd32d2
 MD5sum: d0334a4510ba87891633ddc7ff047866
 Description: TODO: Package description
 
+Package: ros-humble-swb-rplidar-filter
+Version: 0.0.0-0jammy+main1
+Architecture: amd64
+Maintainer: "ros" <ros@todo.todo>
+Installed-Size: 39
+Depends: ros-humble-rclpy, ros-humble-sensor-msgs
+Homepage: https://index.ros.org/p/swb_rplidar_filter/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-rplidar-filter/ros-humble-swb-rplidar-filter_0.0.0-0jammy+main1_amd64.deb
+Size: 5264
+SHA256: 28634e284bd2966fb67f3fb392118c34b9d1a55b42465d1eb4484ae66c44f42d
+SHA1: 20281dc1d0adcaf8b992572a150059c665eefc87
+MD5sum: 3ec6a9feaf7b18d753cb9667dc6aceea
+Description: TODO: Package description
+
