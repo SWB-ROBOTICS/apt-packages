@@ -127,3 +127,19 @@ MD5sum: 1b58f3167e8a39d967a14db7ed348be0
 Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
  This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
 
+Package: ros-humble-swb-ultra-sonic
+Version: 0.0.1-0jammy+main5
+Architecture: arm64
+Maintainer: "mohamad" <mohamadkhatib@gmail.com>
+Installed-Size: 255
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), nlohmann-json3-dev, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-swb-serial, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Homepage: https://index.ros.org/p/swb_ultra_sonic/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-ultra-sonic/ros-humble-swb-ultra-sonic_0.0.1-0jammy+main5_arm64.deb
+Size: 74358
+SHA256: 025696f7338453824cd5cb5c81d2d241b1c09f31be40c76a5f14a6e184fdac97
+SHA1: e93e2ca22c675a27d07857222bd6aea5236e61e6
+MD5sum: 89416aba89f016cd40582acc7f7ff4a8
+Description: ROS 2 package for UART communication with ultrasonic sensor
+
