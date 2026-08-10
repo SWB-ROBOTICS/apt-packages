@@ -30,6 +30,22 @@ SHA1: 5af790e50ae2b6c0d5bbbab0b83f6559b7b11b40
 MD5sum: f975d43c999d8b4917002619306894b2
 Description: Autonomous robot docking system for wireless charging stations using IR-based positioning
 
+Package: ros-humble-swb-serial
+Version: 1.2.1-0jammy
+Architecture: arm64
+Maintainer: "William Woodall" <william@osrfoundation.org>
+Installed-Size: 236
+Homepage: http://wjwwood.github.com/serial/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-serial/ros-humble-swb-serial_1.2.1-0jammy_arm64.deb
+Size: 46674
+SHA256: 77baab682f1ea5af828e535db6b1f42e5a397af835ce19d27a0d65eaca4e953e
+SHA1: c17e486e1fd8002d427b8f7d3e3d10946ac6aba1
+MD5sum: f0267c5861b032e4d696f1001fdca6a0
+Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
+ This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
+
 Package: ros-humble-swb-web-bridge
 Version: 0.0.1-0jammy
 Architecture: arm64
