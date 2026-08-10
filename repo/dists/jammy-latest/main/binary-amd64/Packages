@@ -63,6 +63,22 @@ SHA1: 26f1f6c5074f4ec0b5892e92c5ba191748fbf109
 MD5sum: 19e64601366abe9ba320efc773fae7ba
 Description: A multithreaded laser scan merger, aims to be blazingly fast.
 
+Package: ros-humble-swb-pcl-processor
+Version: 0.0.1-0jammy+main5
+Architecture: amd64
+Maintainer: "Your Name" <mahmoud.kaband147@email.com>
+Installed-Size: 1681
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp-dev, ros-humble-filters, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-nav2-msgs, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-resource-retriever, ros-humble-sensor-msgs, ros-humble-swb-robot-self-filter, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-urdf, ros-humble-visualization-msgs
+Homepage: https://index.ros.org/p/swb_pcl_processor/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-pcl-processor/ros-humble-swb-pcl-processor_0.0.1-0jammy+main5_amd64.deb
+Size: 371050
+SHA256: 58bcabdb7f91fced58269de7eefc04793f9594f8464a4776c3a20203ebe455c4
+SHA1: 6fa1c5c387897dcb028c74f142c00dc91776a1fc
+MD5sum: 8cb00645ef466623e50d411f3aa1dea6
+Description: PCL processor in ROS 2
+
 Package: ros-humble-swb-power
 Version: 1.0.1-0jammy+main4
 Architecture: amd64
