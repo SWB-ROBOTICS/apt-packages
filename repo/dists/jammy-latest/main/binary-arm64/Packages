@@ -30,3 +30,19 @@ SHA1: 642bea3ef2009053ae999ed4e55a1ff016fe1061
 MD5sum: 37c5ca12e2c76a9ffeaae14fc7208e5d
 Description: Autonomous robot docking system for wireless charging stations using IR-based positioning
 
+Package: ros-humble-swb-robot-description
+Version: 0.0.0-0jammy+main1
+Architecture: arm64
+Maintainer: "orangepi" <orangepi@todo.todo>
+Installed-Size: 842
+Depends: ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-urdf, ros-humble-xacro
+Homepage: https://index.ros.org/p/swb_robot_description/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-robot-description/ros-humble-swb-robot-description_0.0.0-0jammy+main1_arm64.deb
+Size: 176894
+SHA256: d87201eaab810ed53f41cc86a9fd388019da4fc26ce1197565806e7d014db5d0
+SHA1: 05bf1a661bb6b66944dcd026097909797e77843b
+MD5sum: 6c5e5a062382f4bf409d9a6f7e1688db
+Description: TODO: Package description
+
