@@ -48,7 +48,7 @@ MD5sum: de88eed95a0127b5d19378202b17f89f
 Description: TODO: Package description
 
 Package: ros-humble-swb-laser-scan-merger
-Version: 1.0.0-0jammy+main1
+Version: 1.0.0-0jammy+main2
 Architecture: arm64
 Maintainer: "Bruce Chan Jian Le" <jianle001@e.ntu.edu.sg>
 Installed-Size: 1230
@@ -56,11 +56,11 @@ Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3
 Homepage: https://index.ros.org/p/swb_laser_scan_merger/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-laser-scan-merger/ros-humble-swb-laser-scan-merger_1.0.0-0jammy+main1_arm64.deb
-Size: 245340
-SHA256: 9ed90568c714a53b1fd7b246ac42fafd25e687b037f7b6f13d0bd98e38ebfbd9
-SHA1: 96f208b62c06ccd2005c43baea3aa0856ff346cc
-MD5sum: 4b2a9a8cb568d52069ef6690311f7279
+Filename: pool/main/r/ros-humble-swb-laser-scan-merger/ros-humble-swb-laser-scan-merger_1.0.0-0jammy+main2_arm64.deb
+Size: 245006
+SHA256: b42e50f2a5d4e0fef7f167430fa45858cd208c4c41f46789e9aa2695ec01de48
+SHA1: 5fe10fb86b2c3d7e69b74083d375ef0d97900a4b
+MD5sum: 288862450330bd3639f52cb95f6c9593
 Description: A multithreaded laser scan merger, aims to be blazingly fast.
 
 Package: ros-humble-swb-mqtt-bridge
