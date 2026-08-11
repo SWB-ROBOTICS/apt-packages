@@ -4,16 +4,16 @@ Hash: SHA512
 Origin: SWB Robotics
 Label: SWB Robotics Latest (main)
 Codename: jammy-latest
-Date: Tue, 11 Aug 2026 08:16:53 UTC
+Date: Tue, 11 Aug 2026 08:17:29 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Humble packages. NOT stable - for testing only.
 MD5Sum:
- 25c839a744bedc13a42113afc6ff8be5 14180 main/binary-amd64/Packages
- 66936fc7ad64b6aad33222264467eb01 3983 main/binary-amd64/Packages.gz
+ 222a38458d08918904a412471585532a 14180 main/binary-amd64/Packages
+ 21100b36e4f5231eef0c1eacc46ab5d9 3987 main/binary-amd64/Packages.gz
  f34750177fd51802631a9ffdab1da161 215 main/binary-amd64/Release
- ef20fc7b0690accc45a48f5bc587b03c 14178 main/binary-arm64/Packages
- 7de36b8fb2ed262e3c06764932b3391d 3990 main/binary-arm64/Packages.gz
+ c88575ccc8b9e8a1ada66e14892c2c67 14178 main/binary-arm64/Packages
+ 3239d47ef1fd3af5465beceae140744d 3992 main/binary-arm64/Packages.gz
  20d0b68c4ec55bf7a33a613a1d51e397 215 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
@@ -22,11 +22,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
  d15d78eb69e95d3254ceb576f6c79221 215 main/binary-armhf/Release
 SHA1:
- 4d2b53043a09e1da1b248600144a4e5472541fb2 14180 main/binary-amd64/Packages
- dc1db1864fdc6d6e6dffd9f0dc44ce3a298a655b 3983 main/binary-amd64/Packages.gz
+ bbceb5f75899f7854766efe1611b553193673340 14180 main/binary-amd64/Packages
+ 150b53ea4f390a91ba1de126295af5df98a08892 3987 main/binary-amd64/Packages.gz
  ec366fef5a7d6c4112cd04d3f78e5e6327ea6c3b 215 main/binary-amd64/Release
- ffcea7d8336123d672699be5febe59f33854da19 14178 main/binary-arm64/Packages
- 4e6a47ad3254b50b0db074c8178f132bc9a781c3 3990 main/binary-arm64/Packages.gz
+ 14f153dd29aeb50413f14f93e6780757e909a3a5 14178 main/binary-arm64/Packages
+ 99f104ec78a8e874542f6765073574429e483b1a 3992 main/binary-arm64/Packages.gz
  9b700a38cdc63b67c1bdc8316402f027187e9607 215 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
@@ -35,11 +35,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
  ace2b0c1fcf05453f18eb8a5d19170e6ba4406ce 215 main/binary-armhf/Release
 SHA256:
- 77e725a096b01f3cdac6aaaf902e1fecda755f9dfee92b328780c178a3b9c7ea 14180 main/binary-amd64/Packages
- 3baef785a5b8f671cb2c8db0410bf9b49653d44a3debb90a410b45be8eb20d6e 3983 main/binary-amd64/Packages.gz
+ e73039b73991c5c6f05730500530597a64b4edb06c0d8fec1967d7313c72348a 14180 main/binary-amd64/Packages
+ 060d14a12bc76415b7b2ea7e7e206ac5a639cb125d18ae8a56f8be45319b39a0 3987 main/binary-amd64/Packages.gz
  5d0cda130fa922aaa1caebfe01d20abd2e027ec61a9efeeba7149c0a9e9e1455 215 main/binary-amd64/Release
- dc77f1a1d1c6af977a8eaa474676fc58137f79b91a75198ab7582e30cb0df89a 14178 main/binary-arm64/Packages
- 70481082f5a74ba7239eef4f94e711179b9a6399848979f231bf5b894a6260e6 3990 main/binary-arm64/Packages.gz
+ 461d1ca3b0e98d499a12d7ea21722e0f5f5befcf4eca28dd75c5d765aa6e620f 14178 main/binary-arm64/Packages
+ e06d9aa59a534d79e0cef2e25f894d5bc28202963596744e77c595149214fc23 3992 main/binary-arm64/Packages.gz
  53ec42813607d73aabd6a900ceca687c2d3f6a6a418e5dd58b5b9b683d4dbf87 215 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
@@ -49,17 +49,17 @@ SHA256:
  c47e0ff5b5f90e1124f95d469cfdc99d6c665b2c52bc2d4f3c30c14d3542a63c 215 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1m6OD5m0N79sU1XCnRJU54hkuTMFAmp62nUACgkQnRJU54hk
-uTOABg//V/hz11n17ZojAtYsN2FCbVFm5DCpKSeJ6DxqqXWgby/jbW6OcgysY1CE
-Q3jjvbs13AavMl57vZrja+aVJjL7XvS+0XyxlHtIEADG5lZ8d1rWiU1C0TlIljKP
-sydQLpobeKYCR9Ckw59H0aAjcjr2RCTRbDWheLMi7STbv5KAvfJ0+n0+Q9cpfE8g
-79876vxCtS3ZZSLjIo4jduPQaSFFTQhgHceqS7DkTPAEe/y3gHBGr7TXKVIVkOca
-RUvkeoCvzXfIZCxOEMilzK9o3tNrpLxQgxwRyFbXfbBTKJ78B0WxnO6QIhHtculY
-OLVVDMIr6LqVvcoU+KNBM8zkog4ZTWXTlOaCy+XVbMkGhTn301CPCfZUKUt6n30A
-7xeaPLFTr3b6AvOKMSo+BlFcnBIwjcfMZ/vUcqLk0PF/FE4TdDm7F83yGXUr1O+k
-7Rdc+OqhQzeYfwY0r9KW/rFfL6+tYn6zkj1OC5oWAUJdt4tWJrL5ismWYnnOrNkL
-MdaHXwVq+ag3oH5gUGczgemFwK+NFmZFikeGyI1Px1VnOVMkaS8GXgENDUxbWd+L
-/4ZbUD0hE0VrW+enfCy/D7P/fr/LYQCfYuMfqk/Vf6ZnmyWkIqBFuF6csi+XRAbL
-lYHTwb2/vwREJ4fclXxFPz8e9S24+xEqu0b2bHgXGwyTtQ426RE=
-=7COj
+iQIzBAEBCgAdFiEE1m6OD5m0N79sU1XCnRJU54hkuTMFAmp62pkACgkQnRJU54hk
+uTMG3g//QLz8jN2JbpEjlgxNjg9wWGHDkNW4MTOtxJs1DXICca+7aPWsiaFMrhgp
+tjnl2W4zfpJkCVnSXjUwNrQN/LZnl8LXe4FmK3I1Dg65iGsax5J+fR70o3vvQjbN
+60BnaDfacRGg+OcldpiKlhRUJN5XtHwIb4h9pZArO6EEaJ7NdGihLcW48fGKD7BS
+/h53XaWXt9NqcA22q5fJlXlhecCyKx3dqPxcFvDQ119nblP5WZdmWBs27twgzoGD
+7Y8YgW3b3RiOP0rhFsmhjfwTP6xHpoV1DV9CrQcrHNln5C4qOGa6vL66uh0gOloS
+65467IgmObg2JW4KtEH0xGqRRYDRDGE+dVm00IsTLJocmMcbu7f2vGx6K0ipXDdP
+f8p/lFJ74j1Z9exRRuff0kF04A1583TeWZc5+QZyrI6kpxyqksayyQ+ooWAQO5/a
+jzl7GW7rO4rli4rLT2E7cRtUaLUyfEmmn/3WayBEsJktyF0ckLBu2rJO47HVLkzU
+IXzCl7y5Q6Xfce7Lra17R5HKlwkIeekkl+/Rfy4qexLfEWo2MoVqh4g/dLAV7LHp
+9acK4YZ3y4R83dZr8tS0+/WD0QprSDQdpJCeCjHC46JHO5nXZxV7NUQavESaKdO6
+jBw7Gz290njvzjbjv6YYn+XRVetRiae3vCnuAbpAs8tjN63YLW4=
+=JlxZ
 -----END PGP SIGNATURE-----
