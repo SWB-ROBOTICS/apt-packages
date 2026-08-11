@@ -128,7 +128,7 @@ MD5sum: fc6001def599224a17c41d47834036be
 Description: Interface package scaffold for the new power_sdk architecture.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main18
+Version: 1.0.0-0jammy+main19
 Architecture: arm64
 Maintainer: "root" <root@todo.todo>
 Installed-Size: 9854
@@ -136,11 +136,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsq
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main18_arm64.deb
-Size: 980302
-SHA256: b803180f838ba6dc47b77880a9d9fc3806c4a7f6244ceef831916ed2919b5510
-SHA1: 02494be51f0774bea1e2d1a5c98c731efe97fcfa
-MD5sum: c4f6db65e1b9b9c38ffa275783433139
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main19_arm64.deb
+Size: 980638
+SHA256: f917eb8acc733e9363392ae2a9faa081934ec9f2adcd4f0119f911b2f6ee6973
+SHA1: e4c1a61b5c5813d89f550c096494b3128b879711
+MD5sum: 87fe571455bc9cb370aaf25531ef7664
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
