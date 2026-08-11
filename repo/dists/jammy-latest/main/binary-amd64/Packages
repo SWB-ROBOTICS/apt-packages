@@ -16,7 +16,7 @@ Description: A package for interfacing with JBD (Jiangsu BaoDun) battery managem
  This package provides a C++ library for communicating with JBD batteries over serial communication, allowing reading of battery parameters such as voltage, current, temperature, and cell voltages.
 
 Package: ros-humble-swb-bldc-wheel
-Version: 0.0.4-0jammy+main6
+Version: 0.0.4-0jammy+main8
 Architecture: amd64
 Maintainer: "Seung Seok Oh" <oxcarxierra@gmail.com>
 Installed-Size: 1199
@@ -24,11 +24,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc+
 Homepage: https://index.ros.org/p/swb_bldc_wheel/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_0.0.4-0jammy+main6_amd64.deb
-Size: 261876
-SHA256: e96bb388f0ea8376af6ae87f246b263c2e2eda58a0bfa937ec42931c2f88b371
-SHA1: 830451eab213b7f6adf28f3099d0423c1e5b9608
-MD5sum: 0c0f55d5213698d7b7ed9ed275bf4985
+Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_0.0.4-0jammy+main8_amd64.deb
+Size: 261872
+SHA256: ff5f930872fa0f1e56d7b418bc9ba0d3890567732d8f99b48b5e8f99aec9b2d8
+SHA1: 8cbd493f9efd2e3e669db40998db515ef3627f84
+MD5sum: 933d003a1ef9e667693d93798a348f39
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
 Package: ros-humble-swb-interactions
