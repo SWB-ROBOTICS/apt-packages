@@ -96,7 +96,7 @@ MD5sum: 5e952e48655d181fcad74cf4690b7b25
 Description: PCL processor in ROS 2
 
 Package: ros-humble-swb-power
-Version: 1.0.0-0jammy+main6
+Version: 1.0.0-0jammy+main7
 Architecture: arm64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
 Installed-Size: 996
@@ -104,15 +104,15 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc+
 Homepage: https://index.ros.org/p/swb_power/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.0.0-0jammy+main6_arm64.deb
-Size: 231048
-SHA256: 7dd28ca1e359f321b72b1374288af76ff231a26337a1f88af1ddc30559162d15
-SHA1: 3d3a81ee0150847dce748ddd2a0dd8f05c4861a7
-MD5sum: 6adcefce04761ef09769c3b170847ddb
+Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.0.0-0jammy+main7_arm64.deb
+Size: 231032
+SHA256: 68c95411bf7022b31d53f2f4ade97a3f3553595648ad33eaf8cba8b35b20d92d
+SHA1: 1a30642d7f3e34a5a626b144159ea73d3461bc2c
+MD5sum: 69af0edf10fa9143b6401de119490b8b
 Description: New monolithic power node package scaffold under power_sdk.
 
 Package: ros-humble-swb-power-interfaces
-Version: 1.0.0-0jammy+main6
+Version: 1.0.0-0jammy+main7
 Architecture: arm64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
 Installed-Size: 2494
@@ -120,11 +120,11 @@ Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libst
 Homepage: https://index.ros.org/p/swb_power_interfaces/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.0.0-0jammy+main6_arm64.deb
-Size: 153680
-SHA256: 3781f727c15ec0704b74153cfcea83f24d9043c40c221a58ac7ce2ae1345d53c
-SHA1: 1b72538486e4b96d77f24f5d79fa8aaa8ec1c3cf
-MD5sum: 033f8125d5fc0792f91f06cc1e9d4b5a
+Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.0.0-0jammy+main7_arm64.deb
+Size: 153670
+SHA256: 3a6c222ebcc03c8edeb50efc247f94b95478722ac8bb55765413f2ec157da4c2
+SHA1: ef0062dd777dde84909ec49152ec8a998a229ab5
+MD5sum: b82fd3d8b47670c98ae2c44989c220fd
 Description: Interface package scaffold for the new power_sdk architecture.
 
 Package: ros-humble-swb-robot
