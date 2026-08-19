@@ -32,7 +32,7 @@ MD5sum: 933d003a1ef9e667693d93798a348f39
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
 Package: ros-humble-swb-interactions
-Version: 0.0.3-0jammy+main8
+Version: 0.0.3-0jammy+main9
 Architecture: amd64
 Maintainer: "benni" <mohammdbenni4@gmail.com>
 Installed-Size: 375
@@ -40,11 +40,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-r
 Homepage: https://index.ros.org/p/swb_interactions/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.0.3-0jammy+main8_amd64.deb
-Size: 99778
-SHA256: 029f669b446045bd6bfa9def3b96f9ed935ba1c2e1f3889c0923841d6da4addd
-SHA1: fafff727435fa855773bcd441cc20db07b3cf20d
-MD5sum: 2d1e68e0b414c94fb9f3c13856a368a6
+Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.0.3-0jammy+main9_amd64.deb
+Size: 99694
+SHA256: 9a10a6b123279a09430f0f1bee24e028caf9022f45cf2ef925640dd530106323
+SHA1: 20cbf780c5e3c3ca445e7d355dced6148d40db0f
+MD5sum: a4a2e396781e324a699f5d290f8d57e1
 Description: TODO: Package description
 
 Package: ros-humble-swb-laser-scan-merger
