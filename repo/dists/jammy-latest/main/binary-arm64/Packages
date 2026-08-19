@@ -144,7 +144,7 @@ MD5sum: 87fe571455bc9cb370aaf25531ef7664
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
-Version: 0.0.0-0jammy+main4
+Version: 0.0.0-0jammy+main5
 Architecture: arm64
 Maintainer: "orangepi" <orangepi@todo.todo>
 Installed-Size: 842
@@ -152,11 +152,11 @@ Depends: ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui,
 Homepage: https://index.ros.org/p/swb_robot_description/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot-description/ros-humble-swb-robot-description_0.0.0-0jammy+main4_arm64.deb
-Size: 176940
-SHA256: d431914be007f8f5e53c4ab01695e3e55bc3f6480bfc5a122d3799d95d10fd38
-SHA1: e06ce61eb5951d2d5ad500d018088ec45eea99c2
-MD5sum: f19e345b869edf4302363b13be932d9f
+Filename: pool/main/r/ros-humble-swb-robot-description/ros-humble-swb-robot-description_0.0.0-0jammy+main5_arm64.deb
+Size: 175996
+SHA256: b8db8592c8e30701b0a8ad8a33f016d32a696a6424eeaade04d6bb0ebbd16c32
+SHA1: 1c22251101289e254f1cf8423b13ae2923003c42
+MD5sum: cd845da451e521b052f91378783ad91d
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-self-filter
