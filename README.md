@@ -52,6 +52,19 @@ sudo apt install ros-jazzy-swb-<package-name>
 
 ## Switching Between Stable and Latest
 
+### Checking Which Channel Is Currently Active
+
+Before switching, check what's actually configured right now - don't rely on memory or on `Tab` completion (see the note below):
+
+```bash
+cat /etc/apt/sources.list.d/swb-ros.list
+```
+
+Look at the word right after the repo URL and before `main`:
+
+- `... /repo/ jammy main` → **Stable**
+- `... /repo/ jammy-latest main` → **Latest (Rolling)**
+
 The `Add repository` command in Quick Setup uses `sudo tee` (not `tee -a`), so it **overwrites** `/etc/apt/sources.list.d/swb-ros.list` each time — you can only have one channel active at once, not both at the same time in this file.
 
 To switch channels, re-run only the `Add repository` step for the channel you want, then update. There is no need to reinstall the GPG key again, since the same key signs both channels:
