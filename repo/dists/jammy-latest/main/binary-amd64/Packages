@@ -16,19 +16,19 @@ Description: A package for interfacing with JBD (Jiangsu BaoDun) battery managem
  This package provides a C++ library for communicating with JBD batteries over serial communication, allowing reading of battery parameters such as voltage, current, temperature, and cell voltages.
 
 Package: ros-humble-swb-bldc-wheel
-Version: 0.0.4-0jammy+main8
+Version: 1.0.0-0jammy+main11
 Architecture: amd64
 Maintainer: "Seung Seok Oh" <oxcarxierra@gmail.com>
-Installed-Size: 1199
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), nlohmann-json3-dev, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-swb-serial, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Installed-Size: 2826
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, nlohmann-json3-dev, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-joint-state-broadcaster, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-robot-state-publisher, ros-humble-rosidl-default-generators, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-serial, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_bldc_wheel/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_0.0.4-0jammy+main8_amd64.deb
-Size: 261872
-SHA256: ff5f930872fa0f1e56d7b418bc9ba0d3890567732d8f99b48b5e8f99aec9b2d8
-SHA1: 8cbd493f9efd2e3e669db40998db515ef3627f84
-MD5sum: 933d003a1ef9e667693d93798a348f39
+Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_1.0.0-0jammy+main11_amd64.deb
+Size: 461804
+SHA256: 22501362fec5864c913b8da98bb411831cc0fee2faf0593e276aa0646713f335
+SHA1: db72f0268596d34f4129436200f88299eda6b42d
+MD5sum: 6bc702bf26add279b358b11d1a7a96f3
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
 Package: ros-humble-swb-interactions
