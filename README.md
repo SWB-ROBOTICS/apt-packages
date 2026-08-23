@@ -6,7 +6,7 @@ This repository hosts pre-compiled, binary-only Debian (`.deb`) packages for SWB
 
 Choose your Ubuntu version and run these commands:
 
-### Ubuntu 22.04 (Jammy Jellyfish) - ROS 2 Humble
+### Ubuntu 22.04 (Jammy Jellyfish) - ROS 2 Humble - Stable
 
 ```bash
 # Install GPG key
@@ -14,6 +14,22 @@ curl -fsSL https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo
 
 # Add repository
 echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+
+# Update and install
+sudo apt update
+sudo apt install ros-humble-swb-power
+```
+
+### Ubuntu 22.04 (Jammy Jellyfish) - ROS 2 Humble - Latest (Rolling)
+
+Rolling builds published automatically from the `main` branch on every successful CI run. Package versions carry a `+mainN` suffix. **Not stable - for testing/development only.**
+
+```bash
+# Install GPG key
+curl -fsSL https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/public.key | sudo gpg --dearmor -o /usr/share/keyrings/swb-robotics-archive-keyring.gpg
+
+# Add repository
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy-latest main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
 
 # Update and install
 sudo apt update
@@ -62,9 +78,14 @@ git push
 
 ### Supported Distributions and Architectures
 
-**Ubuntu 22.04 (Jammy Jellyfish):**
+**Ubuntu 22.04 (Jammy Jellyfish) - Stable:**
 - `ros-humble-swb-web-bridge` (arm64) - Professional Web-to-ROS2 Bridge
 - `ros-humble-swb-power` (amd64) - Autonomous robot docking system for wireless charging stations
+
+**Ubuntu 22.04 (Jammy Jellyfish) - Latest (Rolling):**
+- Automatically published from every successful `main` branch CI run (amd64, arm64)
+- Includes packages ahead of the stable `jammy` release, e.g. `ros-humble-swb-robot`, `ros-humble-swb-mqtt-bridge`, `ros-humble-swb-pcl-processor`
+- Not stable - for testing/development only
 
 **Ubuntu 24.04 (Noble Numbat):**
 - Ready for ROS 2 Jazzy packages (no packages yet)
@@ -125,6 +146,31 @@ apt policy ros-humble-swb-power
 apt list | grep swb
 ```
 
+### Checking Available Packages per Channel
+
+To see which packages exist in each channel, compare the Packages index files directly in this repo:
+
+```bash
+cd repo
+
+# List all packages available in Stable (jammy)
+grep "^Package:" dists/jammy/main/binary-amd64/Packages | sort
+
+# List all packages available in Latest (jammy-latest)
+grep "^Package:" dists/jammy-latest/main/binary-amd64/Packages | sort
+
+# Show only packages that exist in Latest but not yet in Stable
+comm -13 \
+  <(grep "^Package:" dists/jammy/main/binary-amd64/Packages | sort -u) \
+  <(grep "^Package:" dists/jammy-latest/main/binary-amd64/Packages | sort -u)
+```
+
+From a client machine, compare all versions of a specific package across every enabled channel:
+
+```bash
+apt-cache madison ros-humble-swb-robot
+```
+
 ## Repository Structure
 
 ```
@@ -142,6 +188,12 @@ repo/
 │       └── x/amd64/       # AMD64 packages
 ├── dists/
 │   ├── jammy/
+│   │   └── main/
+│   │       ├── binary-amd64/  # AMD64 package indexes
+│   │       ├── binary-arm64/  # ARM64 package indexes
+│   │       ├── binary-armhf/  # ARM hard-float package indexes
+│   │       └── binary-i386/   # i386 package indexes
+│   ├── jammy-latest/          # Rolling builds from main branch CI (not stable)
 │   │   └── main/
 │   │       ├── binary-amd64/  # AMD64 package indexes
 │   │       ├── binary-arm64/  # ARM64 package indexes
