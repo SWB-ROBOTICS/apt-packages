@@ -127,6 +127,22 @@ MD5sum: f95595a7d45099eb809eea0ad3850199
 Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
  This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
 
+Package: ros-humble-swb-ultra-sonic
+Version: 0.0.1-0jammy
+Architecture: amd64
+Maintainer: "mohamad" <mohamadkhatib@gmail.com>
+Installed-Size: 272
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), nlohmann-json3-dev, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-swb-serial, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Homepage: https://index.ros.org/p/swb_ultra_sonic/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-ultra-sonic/ros-humble-swb-ultra-sonic_0.0.1-0jammy_amd64.deb
+Size: 80312
+SHA256: 6fea8052118eafce9634c10965fb0b218f005db97196f9e7f90a93a75f0dcc6e
+SHA1: 7182c7b2bcba16d7523e8e1804bd0b099b3def27
+MD5sum: a68ee3676dd1c757ca909404f5e2baa2
+Description: ROS 2 package for UART communication with ultrasonic sensor
+
 Package: ros-humble-swb-web-bridge
 Version: 0.0.1-0jammy
 Architecture: amd64
