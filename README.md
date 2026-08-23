@@ -50,6 +50,32 @@ sudo apt update
 sudo apt install ros-jazzy-swb-<package-name>
 ```
 
+## Switching Between Stable and Latest
+
+The `Add repository` command in Quick Setup uses `sudo tee` (not `tee -a`), so it **overwrites** `/etc/apt/sources.list.d/swb-ros.list` each time — you can only have one channel active at once, not both at the same time in this file.
+
+To switch channels, re-run only the `Add repository` step for the channel you want, then update. There is no need to reinstall the GPG key again, since the same key signs both channels:
+
+```bash
+# Switch to Latest (Rolling)
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy-latest main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+sudo apt update
+
+# Switch back to Stable
+echo "deb [signed-by=/usr/share/keyrings/swb-robotics-archive-keyring.gpg] https://raw.githubusercontent.com/SWB-ROBOTICS/apt-packages/main/repo/ jammy main" | sudo tee /etc/apt/sources.list.d/swb-ros.list
+sudo apt update
+```
+
+### Downgrade warning
+
+Latest package versions carry a `+mainN` suffix (e.g. `1.0.0-0jammy+main23`), which APT considers *newer* than the plain Stable version (`1.0.0-0jammy`). If you installed a package from Latest and then switch back to Stable, `apt upgrade` will refuse to downgrade it automatically. Force it explicitly:
+
+```bash
+sudo apt install ros-humble-swb-power=1.0.0-0jammy
+# or
+sudo apt install --allow-downgrades ros-humble-swb-power
+```
+
 ## Repository Management
 
 This repository uses **reprepro** for professional APT repository management with GPG signing.
