@@ -207,6 +207,22 @@ MD5sum: 376c565de7067ab95a1c9e24ccbcc053
 Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
  This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
 
+Package: ros-humble-swb-slam-toolbox
+Version: 2.6.10-0jammy+main2
+Architecture: amd64
+Maintainer: "Steve Macenski" <stevenmacenski@gmail.com>
+Installed-Size: 12649
+Depends: libboost-serialization1.74.0 (>= 1.74.0), libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.35), libceres2 (>= 2.0.0+dfsg1), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgoogle-glog0v5 (>= 0.5.0+really0.4.0), liborocos-kdl1.5 (>= 1.5.1), libpython3.10 (>= 3.10.0), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), libtinyxml2-9 (>= 8.0.0), libunwind8, ros-humble-fastcdr, libboost-all-dev, libceres-dev, libeigen3-dev, liblapack-dev, libqt5gui5, libqt5opengl5, libsuitesparse-dev, libtbb-dev, ros-humble-bond, ros-humble-bondcpp, ros-humble-builtin-interfaces, ros-humble-interactive-markers, ros-humble-lifecycle-msgs, ros-humble-message-filters, ros-humble-nav-msgs, ros-humble-nav2-map-server, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-rosidl-default-generators, ros-humble-rviz-common, ros-humble-rviz-default-plugins, ros-humble-rviz-ogre-vendor, ros-humble-rviz-rendering, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-visualization-msgs
+Homepage: https://index.ros.org/p/swb_slam_toolbox/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-slam-toolbox/ros-humble-swb-slam-toolbox_2.6.10-0jammy+main2_amd64.deb
+Size: 1693142
+SHA256: bbdea9b0b0544814c006c52080477386c0e6448461d0e7934bd96180ce363bf8
+SHA1: 11cd96272f12e2e33517518061e03ff8bb05ba01
+MD5sum: 1d160f18b26d3b5f1394e5bdc4ad2bc1
+Description: This package provides a sped up improved slam karto with updated SDK and visualization and modification toolsets
+
 Package: ros-humble-swb-ultra-sonic
 Version: 0.0.1-0jammy+main8
 Architecture: amd64
