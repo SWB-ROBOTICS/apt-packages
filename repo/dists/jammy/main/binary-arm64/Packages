@@ -95,6 +95,22 @@ SHA1: 10dc521587dc1a398393b71a8679bcfcb17ea1d1
 MD5sum: b43dc5a5ccf9f8d015382e0577647d24
 Description: TODO: Package description
 
+Package: ros-humble-swb-pcl-processor
+Version: 0.0.2-0jammy
+Architecture: arm64
+Maintainer: "Your Name" <mahmoud.kaband147@email.com>
+Installed-Size: 1516
+Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libbullet3.06 (>= 3.06+dfsg), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libyaml-cpp-dev, ros-humble-filters, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-nav2-msgs, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-resource-retriever, ros-humble-sensor-msgs, ros-humble-swb-robot-self-filter, ros-humble-tf2, ros-humble-tf2-eigen, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-urdf, ros-humble-visualization-msgs
+Homepage: https://index.ros.org/p/swb_pcl_processor/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-pcl-processor/ros-humble-swb-pcl-processor_0.0.2-0jammy_arm64.deb
+Size: 341432
+SHA256: ae6a831f320f37b09ccb0e0e5853d6b160c9b9ca4d64f4cb2aa481a16b99d3dc
+SHA1: f66152f144a08ebc28a813e70189ed25c23615a3
+MD5sum: 9806924b119b19598c3fe4f989d869f0
+Description: PCL processor in ROS 2
+
 Package: ros-humble-swb-power
 Version: 1.0.0-0jammy
 Architecture: arm64
