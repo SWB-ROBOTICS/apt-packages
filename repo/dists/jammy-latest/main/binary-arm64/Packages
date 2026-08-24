@@ -1,3 +1,19 @@
+Package: ros-humble-sllidar-ros2
+Version: 1.0.1-0jammy+main1
+Architecture: arm64
+Maintainer: "Slamtec ROS Maintainer" <ros@slamtec.com>
+Installed-Size: 662
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-srvs
+Homepage: https://index.ros.org/p/sllidar_ros2/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-sllidar-ros2/ros-humble-sllidar-ros2_1.0.1-0jammy+main1_arm64.deb
+Size: 165910
+SHA256: 10e15fb03cd3ea65e42ee25c0d2a003370a915650f81ea9f0e11d8e005d570d9
+SHA1: a208b97a8f803a7c76d99bdb05de402658fb02cc
+MD5sum: 03cc6e7e7a0f220953388757a424ec99
+Description: The rplidar ros2 package, support rplidar A2/A1 and A3/S1
+
 Package: ros-humble-swb-battery
 Version: 1.0.0-0jammy+main10
 Architecture: arm64
