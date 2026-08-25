@@ -144,19 +144,19 @@ MD5sum: 76ea224ebf7451146697c4805d906df5
 Description: Interface package scaffold for the new power_sdk architecture.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main31
+Version: 1.0.0-0jammy+main32
 Architecture: amd64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 10175
+Installed-Size: 10174
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rosidl-default-runtime, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-robot-description, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main31_amd64.deb
-Size: 1034786
-SHA256: 55e8c6772f838a7ba786c32af473ff40dc290cce5ab56dd27e430dcc663f8cb3
-SHA1: 8a6913e7debd78f04c2e25c52c6f482595be270e
-MD5sum: 9f4f32276df03a2e468d2a5c3310a49a
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main32_amd64.deb
+Size: 1034370
+SHA256: a914e46d5fa9fe62de0d5c3bbbbacfb47f45c03727cf5fd0dc2d6e50ca0a14f3
+SHA1: 386683a3ff6ca6849018a5f25048821cea2accf0
+MD5sum: c4c2529229e60dcbf2b06a765060f710
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
