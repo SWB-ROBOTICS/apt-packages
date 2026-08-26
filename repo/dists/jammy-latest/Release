@@ -1,16 +1,16 @@
 Origin: SWB Robotics
 Label: SWB Robotics Latest (main)
 Codename: jammy-latest
-Date: Wed, 26 Aug 2026 11:12:26 UTC
+Date: Wed, 26 Aug 2026 12:41:29 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Humble packages. NOT stable - for testing only.
 MD5Sum:
- 4fb83c05e950999cbcb00ec3cef2b1d0 17927 main/binary-amd64/Packages
- f0a9961a4da93ae2715e129507d3e5f8 4832 main/binary-amd64/Packages.gz
+ ba05d0296931d9702b77ecabd9e93be0 17927 main/binary-amd64/Packages
+ 3a3512c390d3bea971b952e3e7c86e71 4832 main/binary-amd64/Packages.gz
  f34750177fd51802631a9ffdab1da161 215 main/binary-amd64/Release
- 7bc43d33cf435c42d24663dc79389415 17914 main/binary-arm64/Packages
- 61e6d4f12688596456fcddbb715e4320 4826 main/binary-arm64/Packages.gz
+ ec8939ad40e2688c79015d8d5089fb64 17914 main/binary-arm64/Packages
+ d5a3e1abe95894d97b902658efd4c58d 4829 main/binary-arm64/Packages.gz
  20d0b68c4ec55bf7a33a613a1d51e397 215 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
@@ -19,11 +19,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
  d15d78eb69e95d3254ceb576f6c79221 215 main/binary-armhf/Release
 SHA1:
- a4137c8d3358c12e2a7850d29cad4305d4d0f481 17927 main/binary-amd64/Packages
- c50f5a780c9e236e7397fbeb2df066483b574633 4832 main/binary-amd64/Packages.gz
+ fdacf8cd891bb082ae3da8629c4a798681979e09 17927 main/binary-amd64/Packages
+ 4b820810ba4e24407b2e9608a72be056508a0de3 4832 main/binary-amd64/Packages.gz
  ec366fef5a7d6c4112cd04d3f78e5e6327ea6c3b 215 main/binary-amd64/Release
- 2084b334c8698341b8150766c65c189f1247b09e 17914 main/binary-arm64/Packages
- 959e249398f0e501aab640833d7e00f68f47d234 4826 main/binary-arm64/Packages.gz
+ 72a7df09df15f2305b98b3f11578828904b9f457 17914 main/binary-arm64/Packages
+ ae0c22e485794212e1459f470ed04ebaf1dc0c7b 4829 main/binary-arm64/Packages.gz
  9b700a38cdc63b67c1bdc8316402f027187e9607 215 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
@@ -32,11 +32,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
  ace2b0c1fcf05453f18eb8a5d19170e6ba4406ce 215 main/binary-armhf/Release
 SHA256:
- 2bee9dfa62516919555b733a957d28732d76030f15a979295e42263ea9021aac 17927 main/binary-amd64/Packages
- 379a69272efbaf60f30e50906828508def2df158baff1183f5bafb5eb93f70c6 4832 main/binary-amd64/Packages.gz
+ 7f96d3424f4efd72e3b7bdffd1dab72ce57dcb547982ce348d45d4b4b0d94bb4 17927 main/binary-amd64/Packages
+ 7aafbecb0003d52a828a07d4c9b9669e19d160a2e00b0adfee2587bb8be0eaaa 4832 main/binary-amd64/Packages.gz
  5d0cda130fa922aaa1caebfe01d20abd2e027ec61a9efeeba7149c0a9e9e1455 215 main/binary-amd64/Release
- e8332ce4bf222a6151f87ba4bb1bc8e520401f986710db5ddaa5fa49f96c5f56 17914 main/binary-arm64/Packages
- 0efdc40b410d2e8ce2d3b25d615c74c1c75aebcf4b6ffba5e60a7d9904e6eb16 4826 main/binary-arm64/Packages.gz
+ 8a6d9f719c06f99c17d1e5361aa8f521c0bf61800dc0354d70cecac5a8eaad97 17914 main/binary-arm64/Packages
+ 8487db0aeb4c336d398f6630b13272fdff657700a7d3a26660092e9f31579637 4829 main/binary-arm64/Packages.gz
  53ec42813607d73aabd6a900ceca687c2d3f6a6a418e5dd58b5b9b683d4dbf87 215 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
