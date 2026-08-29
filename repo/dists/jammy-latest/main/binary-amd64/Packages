@@ -111,6 +111,22 @@ SHA1: 411da652ea01ab7935040a91241153e685e69d19
 MD5sum: 3b99ddc5a11ec67aed4207cb859d59cb
 Description: PCL processor in ROS 2
 
+Package: ros-humble-swb-person-follower
+Version: 0.0.0-0jammy+main4
+Architecture: amd64
+Maintainer: "robotmania" <robotmania@todo.todo>
+Installed-Size: 16694
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-action-msgs
+Homepage: https://index.ros.org/p/swb_person_follower/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-person-follower/ros-humble-swb-person-follower_0.0.0-0jammy+main4_amd64.deb
+Size: 9639374
+SHA256: 7d2028ad055716f24dd353b37f27918a1b487d720dc23894e0512b9f42d70c73
+SHA1: 74a7e64f1eae4e170c71ec4fa3ae54d909ffe6be
+MD5sum: d09586d3a54d78d03c4f6a457a0895c6
+Description: TODO: Package description
+
 Package: ros-humble-swb-power
 Version: 1.0.0-0jammy+main9
 Architecture: amd64
