@@ -21,3 +21,11 @@ Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Humble packages. NOT stable - for testing only.
 SignWith: 7C36C00CA5284792
+
+Origin: SWB Robotics
+Label: SWB Robotics Latest (main)
+Codename: noble-latest
+Architectures: amd64 arm64 i386 armhf
+Components: main
+Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Jazzy-labeled (CIX hardware variant) packages. NOT stable - for testing only.
+SignWith: 7C36C00CA5284792
