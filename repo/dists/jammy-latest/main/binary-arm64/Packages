@@ -144,7 +144,7 @@ MD5sum: 23c1be935e84055c890e76fdeeb16633
 Description: TODO: Package description
 
 Package: ros-humble-swb-person-follower-bt
-Version: 0.1.0-0jammy+main15
+Version: 0.1.0-0jammy+main16
 Architecture: arm64
 Maintainer: "Your Name" <user@example.com>
 Installed-Size: 493
@@ -152,11 +152,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-a
 Homepage: https://index.ros.org/p/swb_person_follower_bt/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-person-follower-bt/ros-humble-swb-person-follower-bt_0.1.0-0jammy+main15_arm64.deb
-Size: 144362
-SHA256: b98f394557c88f10063ca39016fa5e155fc87116cc4567127d775519a8efaed5
-SHA1: 5e56044fbe8ebfa3c20e652e38f2528c6f2c4163
-MD5sum: 85aa77d1b936ef410b7788ebfae6a49f
+Filename: pool/main/r/ros-humble-swb-person-follower-bt/ros-humble-swb-person-follower-bt_0.1.0-0jammy+main16_arm64.deb
+Size: 144360
+SHA256: bb831f5c88c3e62795bba4fd0d0d0c67df5f8b5fe21318a608f7db90daef742d
+SHA1: cf0b58c7178ffa2dbdb7d4eedccb74b0f8ab153a
+MD5sum: 4dd5dfa98ce35e32ffe6c52e9793978b
 Description: ROS2 Behavior Tree with YONO and Navigation Wait
 
 Package: ros-humble-swb-power
