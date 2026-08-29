@@ -47,6 +47,22 @@ SHA1: db72f0268596d34f4129436200f88299eda6b42d
 MD5sum: 6bc702bf26add279b358b11d1a7a96f3
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
+Package: ros-humble-swb-bn-sequence
+Version: 0.1.0-0jammy+main7
+Architecture: amd64
+Maintainer: "Your Name" <user@example.com>
+Installed-Size: 529
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-action-msgs, ros-humble-behaviortree-cpp, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-swb-person-follower
+Homepage: https://index.ros.org/p/swb_bn_sequence/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-bn-sequence/ros-humble-swb-bn-sequence_0.1.0-0jammy+main7_amd64.deb
+Size: 153328
+SHA256: fb145da998c6e152f3d70e6cd38956b5114d0e6ad03993e4bce9e850960ee845
+SHA1: 1c6079282a9199d1483025df8f5085a3c98b36d3
+MD5sum: fa09bf44aa00138f33b8c397d11b61a5
+Description: ROS2 Behavior Tree with YONO and Navigation Wait
+
 Package: ros-humble-swb-interactions
 Version: 0.0.3-0jammy+main9
 Architecture: amd64
