@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: SWB Robotics
 Label: SWB Robotics Latest (main)
 Codename: jammy-latest
-Date: Sat, 29 Aug 2026 10:35:53 UTC
+Date: Sat, 29 Aug 2026 11:48:08 UTC
 Architectures: amd64 arm64 i386 armhf
 Components: main
 Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Humble packages. NOT stable - for testing only.
@@ -49,17 +49,17 @@ SHA256:
  c47e0ff5b5f90e1124f95d469cfdc99d6c665b2c52bc2d4f3c30c14d3542a63c 215 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1m6OD5m0N79sU1XCnRJU54hkuTMFAmqStgkACgkQnRJU54hk
-uTNGIQ//ZmBLF3DPjEZCmfiE4AU0DAbUY787WAse6u7uuFExXfnG0+QMdEi46MDO
-zQAX/52+OY6IVdAdlYYrxRWmt3iiRThScb6vsOjBGy5Lwemj2pPE66AwTOJRQFaK
-/6TrFSDwmCzfK1aviICJ410ZNCd64ziDGWiT4E+xxJ+nKFa3KILyWh/zVEOVxlnr
-CoZbyZPWK/yfWG0Bj2cQe7hqSlV9iQ5d5FG8JJwQ8vL3TL/GtXFGF6P7yTUUHs6n
-F6aCjQ1o4vNNbreSm2NsrEGunzKrP5m4f3AlY32sQ+PFf4jR4I5IYReuZwrm6S/B
-K3Vl6m0Sy5B6+DPwh5gbLQEVDEVJeuhhqbeDTlAT5pm+W/hGajTu4TbsYf5bhDiZ
-ANHEhqaDZiJbD8J/0skhUr8uZCzAg8a0XjkPNEDlFi2D71j9+9pw+HBu0DiPOQRP
-Wk/lcsL3+EM/veLqZ2q2kNbyRmX86dCJHtnHKO30ht/NCODMKaGP761gfMhzUJff
-u/vBkpf2NfP4NLxnMa99fjYT+o+7T5QyIylQH2xWg/ItiwU65p+DmA5mAxDuxNUp
-vX1CvxeKe/DnhTFDJ9WioPGSqJECOg/AjGGi7rdJrVNCIn/dhzx/Nae32iaOXYFp
-b313YuaS79H8AEiY4+cqlIq/2VzaOpDBNO9+/VWQq3z6WQpBJYQ=
-=ogjK
+iQIzBAEBCgAdFiEE1m6OD5m0N79sU1XCnRJU54hkuTMFAmqSxvgACgkQnRJU54hk
+uTP4rg//a/kpLOssZ1sy7R7ANxyshBnmlYOrJ7udDgDzvfX/z8EhWwK1ref00eZ/
+vFdeVignOXL37S24VvBdPjnov4XG/4nHJFKHhkDFhZF5A7pnbPl7dXk5ny4poCmb
+3FIkgPqEdpBXsfkV62BT1ESrSBfShxjY4LDX4saaPdWowXGmIgCLtrmAyrNs737y
+0dvmiky04ddAuwxXc4v6TV3UYDyU1XWZQJ7nO+WkT7tb+Yg8B9q9+HV9ysbTzXbu
+I5hlGRBCcsd4qvaG5l3twqGfu7kpiODr70IVuaVxlLV5bkbeXpDqnAH2Zjq8Mg/T
+06s5bu4phI3nRajdilWjuBf9RP8B46uGVr4pt6v0stwqAkupbwOwafn/wA+kNk3E
+Wqm8c73vaeaJW7C3nkCRGsP/qxO6miFUht46HnbihYeZuci5ldF4PScJQWr6oeMw
+AIysM5OfMjldJCa7xd2sHTDdMOVbmPhVt7N0SAcqRlhe0nquATokg0lJLqrIuIvg
+QZ6+TbpHKGyAP2PGitgdWKD+AtSeOMZxEF7NhVl951BZTgh8ggvzIFyYQCfvs6C5
+/ymH6cPV3MLfr3e1L4/NiYDGTtPi7gnhdj3hTPKorFrmTx9LoWaWt4q/K042haA7
+B23UhWorDGmKZHns5Vm5DXRsFMykTGTGJ1lr8XSlemqPKr8BXxA=
+=32lr
 -----END PGP SIGNATURE-----

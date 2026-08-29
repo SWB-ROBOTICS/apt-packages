@@ -1,0 +1,5 @@
+Component: main
+Origin: SWB Robotics
+Label: SWB Robotics Latest (main)
+Architecture: amd64
+Description: Rolling builds of the latest main branch for SWB Robotics ROS2 Jazzy-labeled (CIX hardware variant) packages. NOT stable - for testing only.
