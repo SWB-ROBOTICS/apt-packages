@@ -2,6 +2,11 @@
 
 This repository hosts pre-compiled, binary-only Debian (`.deb`) packages for SWB's internal ROS 2 deployments. Source code is excluded from these packages for security.
 
+## Stable vs Latest
+
+- **Stable** (`jammy`) - the official, approved version of each package. Only updates when a human deliberately pushes a `vX.Y.Z` git tag matching `package.xml`. Use this on real robots.
+- **Latest** (`jammy-latest`) - a live snapshot of the source code. Rebuilds automatically on every push to the main branch, no human approval involved (version suffix `+mainN`). Testing/development only - not stable.
+
 ## Quick Setup
 
 Choose your Ubuntu version and run these commands:
