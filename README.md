@@ -55,6 +55,61 @@ sudo apt update
 sudo apt install ros-jazzy-swb-<package-name>
 ```
 
+## After Installation
+
+### Where Packages Install To
+
+Every package installs under the standard ROS 2 prefix, **not** a location specific to this repo:
+
+```text
+/opt/ros/humble/   (or /opt/ros/jazzy/ for Noble)
+```
+
+Real example, from `/opt/ros/humble/` on a board after installing SWB packages:
+
+```text
+bin/       - executables (shared across all installed packages)
+include/   - C++ headers, one subfolder per package (e.g. include/swb_power/)
+lib/       - compiled libraries (.so) and per-package executables
+share/     - launch files, configs, and other resources, one subfolder per package (e.g. share/swb_power/)
+```
+
+To use the packages in a shell, source ROS as usual:
+
+```bash
+source /opt/ros/humble/setup.bash
+```
+
+To see exactly which files a specific package installed:
+
+```bash
+dpkg -L ros-humble-swb-power
+```
+
+### Verifying a Package Is Visible to ROS 2
+
+After installing (and sourcing `setup.bash`), confirm ROS 2 itself sees the package:
+
+```bash
+ros2 pkg list | grep swb
+```
+
+If a package doesn't show up here even though `dpkg -l` shows it installed, source `setup.bash` again in your current shell.
+
+### Installing / Removing a Specific Package
+
+These act on your local machine only - they do not affect the repository:
+
+```bash
+# Install
+sudo apt install ros-humble-swb-robot
+
+# Remove
+sudo apt remove ros-humble-swb-robot
+```
+
+`apt remove` keeps config files behind (package shows as `rc` in `dpkg -l`); use `apt purge` instead to remove those too.
+
 ## Switching Between Stable and Latest
 
 ### Checking Which Channel Is Currently Active
@@ -108,12 +163,14 @@ cd repo
 ```
 
 The script will automatically:
+
 - Add the package to the repository
 - Generate package indexes
 - Update Release files with checksums
 - Sign the repository with GPG
 
 After adding packages:
+
 ```bash
 git add -A
 git commit -m "Add new package"
@@ -123,18 +180,22 @@ git push
 ### Supported Distributions and Architectures
 
 **Ubuntu 22.04 (Jammy Jellyfish) - Stable:**
+
 - `ros-humble-swb-web-bridge` (arm64) - Professional Web-to-ROS2 Bridge
 - `ros-humble-swb-power` (amd64) - Autonomous robot docking system for wireless charging stations
 
 **Ubuntu 22.04 (Jammy Jellyfish) - Latest (Rolling):**
+
 - Automatically published from every successful `main` branch CI run (amd64, arm64)
 - Includes packages ahead of the stable `jammy` release, e.g. `ros-humble-swb-robot`, `ros-humble-swb-mqtt-bridge`, `ros-humble-swb-pcl-processor`
 - Not stable - for testing/development only
 
 **Ubuntu 24.04 (Noble Numbat):**
+
 - Ready for ROS 2 Jazzy packages (no packages yet)
 
 **Architectures:**
+
 - amd64 (64-bit Intel/AMD)
 - arm64 (64-bit ARM)
 - armhf (32-bit ARM hard-float)
@@ -163,61 +224,65 @@ sudo apt update
 ### i386 Architecture Notice
 
 You may see this notice during `apt update`:
-```
+
+```text
 Notice: Skipping acquire of configured file 'main/binary-i386/Packages' as repository doesn't support architecture 'i386'
 ```
 
 **This is normal** - it means the repository declares i386 support but currently has no i386 packages. The notice will disappear automatically when i386 packages are added.
 
 To suppress the notice (if you don't need 32-bit packages):
+
 ```bash
 sudo dpkg --remove-architecture i386
 sudo apt update
 ```
 
-### Verifying Repository Setup
+### Verifying What's Actually Available or Installed
 
-To verify the repository is working:
+There are **two independent sources of truth** - always check both. Never rely on memory, and never rely on `Tab` completion to decide whether a package is available: it can show stale results left over from a channel you switched away from (see [Checking Which Channel Is Currently Active](#checking-which-channel-is-currently-active) above), because it reads a cached package list that isn't always refreshed by `apt update`.
 
-```bash
-# Check if repository is listed
-apt policy | grep swb
-
-# Check available packages
-apt policy ros-humble-swb-power
-
-# List all packages from the repository
-apt list | grep swb
-```
-
-### Checking Available Packages per Channel
-
-To see which packages exist in each channel, compare the Packages index files directly in this repo:
+**1. The repository's own files** (absolute truth - what the repo actually contains, regardless of any client machine's state):
 
 ```bash
-cd repo
+cd ~/apt-packages/repo
 
-# List all packages available in Stable (jammy)
+# All packages available in Stable (jammy)
 grep "^Package:" dists/jammy/main/binary-amd64/Packages | sort
 
-# List all packages available in Latest (jammy-latest)
+# All packages available in Latest (jammy-latest)
 grep "^Package:" dists/jammy-latest/main/binary-amd64/Packages | sort
 
-# Show only packages that exist in Latest but not yet in Stable
+# Packages that exist in Latest but not yet in Stable
 comm -13 \
   <(grep "^Package:" dists/jammy/main/binary-amd64/Packages | sort -u) \
   <(grep "^Package:" dists/jammy-latest/main/binary-amd64/Packages | sort -u)
 ```
 
-From a client machine, compare all versions of a specific package across every enabled channel:
+**2. The client machine** (what apt currently sees, based on whichever channel is active right now):
 
 ```bash
+# Which channel is active right now?
+cat /etc/apt/sources.list.d/swb-ros.list
+
+# Real search - unaffected by stale Tab-completion cache
+apt-cache search "ros-humble-swb-"
+
+# Details for one package: available? which version? which source?
+apt-cache policy ros-humble-swb-robot
+
+# Is it actually installed on this machine right now?
+dpkg -l | grep ros-humble-swb-robot
+
+# Compare all versions of a package across every enabled channel
 apt-cache madison ros-humble-swb-robot
 ```
 
+If these two sources ever disagree with what `Tab` completion showed you, trust these commands, not `Tab`.
+
 ## Repository Structure
 
-```
+```text
 repo/
 ├── conf/
 │   ├── distributions      # Repository configuration (supports jammy & noble)
