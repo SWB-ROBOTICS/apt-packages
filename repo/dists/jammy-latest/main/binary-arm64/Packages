@@ -192,19 +192,19 @@ MD5sum: fc6001def599224a17c41d47834036be
 Description: Interface package scaffold for the new power_sdk architecture.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main42
+Version: 1.0.0-0jammy+main43
 Architecture: arm64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 10942
+Installed-Size: 10976
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-rosidl-default-runtime, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-urdf, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main42_arm64.deb
-Size: 1215414
-SHA256: 53c090588a33beb2fc8572454df18477c19580accaae1eaca91c4bafac2230fe
-SHA1: 0714283fec150ebb5a35cbacc5b8bb3504f98f4b
-MD5sum: 9eeae1b179b2370551218d9649ce11c8
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main43_arm64.deb
+Size: 1223432
+SHA256: 60e3669c5edd1a1c7061e2e5c479ed60d9ff88991970840519fd71db09453c9b
+SHA1: 1c7ab0f8cb4254decf63f538026bc2b084bbab39
+MD5sum: e6870a1571f266c24a60807d3fb26167
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
