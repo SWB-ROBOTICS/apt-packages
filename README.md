@@ -7,6 +7,31 @@ This repository hosts pre-compiled, binary-only Debian (`.deb`) packages for SWB
 - **Stable** (`jammy`) - the official, approved version of each package. Only updates when a human deliberately pushes a `vX.Y.Z` git tag matching `package.xml`. Use this on real robots.
 - **Latest** (`jammy-latest`) - a live snapshot of the source code. Rebuilds automatically on every push to the main branch, no human approval involved (version suffix `+mainN`). Testing/development only - not stable.
 
+## Prerequisite: the official ROS 2 apt repository
+
+This repo only hosts `ros-humble-swb-*` / `ros-jazzy-swb-*` packages. It has no idea
+packages like `ros-humble-rclcpp`, `ros-humble-nav2-bringup`, or `ros-humble-ros2launch`
+exist — those live in the *official* ROS 2 apt repository, a completely separate repo
+with its own key and source line. Apt resolves a package's dependencies across every
+configured source combined, not just the one hosting the package you're installing, so
+without this step `sudo apt install ros-humble-swb-*` fails on every core ROS 2
+dependency with "Unable to locate package" / "has no installation candidate" — this repo
+being reachable and up to date doesn't help with that at all.
+
+Skip this if ROS 2 is already installed and sourced (`source /opt/ros/humble/setup.bash`
+works) — this is a one-time, per-machine step, not something either apt repo does for you.
+
+```bash
+sudo apt install curl gnupg lsb-release -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key \
+  -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \
+http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | \
+  sudo tee /etc/apt/sources.list.d/ros2.list
+sudo apt update
+sudo apt install -y ros-humble-ros-base   # ros-jazzy-ros-base on Noble; ros-base is enough, no need for -desktop
+```
+
 ## Quick Setup
 
 Choose your Ubuntu version and run these commands:
