@@ -112,7 +112,7 @@ MD5sum: 52f39cf9fc3b269d9bb52efd7d298de1
 Description: TODO: Package description
 
 Package: ros-humble-swb-pcl-processor
-Version: 0.0.2-0jammy+main17
+Version: 0.0.2-0jammy+main18
 Architecture: amd64
 Maintainer: "Your Name" <mahmoud.kaband147@email.com>
 Installed-Size: 2625
@@ -120,11 +120,11 @@ Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libbu
 Homepage: https://index.ros.org/p/swb_pcl_processor/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-pcl-processor/ros-humble-swb-pcl-processor_0.0.2-0jammy+main17_amd64.deb
-Size: 614508
-SHA256: 6a24c5933d2f676c85e2d15b6b70895124094566aea975244956f1ad6862b302
-SHA1: a31a68d71d4c6004c81b6b21c180e3b212339bb4
-MD5sum: 45c40739431b60ed74939844d57590d9
+Filename: pool/main/r/ros-humble-swb-pcl-processor/ros-humble-swb-pcl-processor_0.0.2-0jammy+main18_amd64.deb
+Size: 614104
+SHA256: c1107ef0edac27a2d230b5ae28f72e2e316fd03ac97d6a3b349b7a5267d4105d
+SHA1: e32c3b94f18bf1d00d0fa77dd02800015a2c34a6
+MD5sum: 2d883b840eac356d791d33061601e27a
 Description: PCL processor in ROS 2
 
 Package: ros-humble-swb-person-follower
