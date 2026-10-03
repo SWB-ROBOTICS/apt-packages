@@ -32,19 +32,19 @@ Description: A package for interfacing with JBD (Jiangsu BaoDun) battery managem
  This package provides a C++ library for communicating with JBD batteries over serial communication, allowing reading of battery parameters such as voltage, current, temperature, and cell voltages.
 
 Package: ros-humble-swb-bldc-wheel
-Version: 1.0.0-0jammy+main11
+Version: 1.0.0-0jammy+main12
 Architecture: amd64
 Maintainer: "Seung Seok Oh" <oxcarxierra@gmail.com>
-Installed-Size: 2826
+Installed-Size: 2831
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, nlohmann-json3-dev, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-geometry-msgs, ros-humble-hardware-interface, ros-humble-joint-state-broadcaster, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-robot-state-publisher, ros-humble-rosidl-default-generators, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-serial, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_bldc_wheel/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_1.0.0-0jammy+main11_amd64.deb
-Size: 461804
-SHA256: 22501362fec5864c913b8da98bb411831cc0fee2faf0593e276aa0646713f335
-SHA1: db72f0268596d34f4129436200f88299eda6b42d
-MD5sum: 6bc702bf26add279b358b11d1a7a96f3
+Filename: pool/main/r/ros-humble-swb-bldc-wheel/ros-humble-swb-bldc-wheel_1.0.0-0jammy+main12_amd64.deb
+Size: 463630
+SHA256: 281fa62d04b6843ec5d17c2c9af5de03894b4e9ccbe41d17af86dbcf36cc7653
+SHA1: 41c8e1e19f3a99fef9bfe8420febe2305b9fda3f
+MD5sum: 47b032118b42dab89d3085b9226d20f9
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
 Package: ros-humble-swb-bn-sequence
