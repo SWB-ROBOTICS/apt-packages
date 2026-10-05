@@ -192,19 +192,19 @@ MD5sum: 23b14f49ae15b839230301d6c6e2f994
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main72
+Version: 1.0.0-0jammy+main73
 Architecture: arm64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 11577
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros (<< 0.25.23), ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-urdf, ros-humble-xacro
+Installed-Size: 11578
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros (<< 0.25.23), ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-urdf, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main72_arm64.deb
-Size: 1358688
-SHA256: a55d29defefd6776bbc27b25278b9f5fb5df42367e9b9e90c97c0acdf1233a83
-SHA1: 71e0b701d2a669dd0bf519fe289dd21ece2aec19
-MD5sum: 0f47de5cc9cd658c2744fbe2ac550277
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main73_arm64.deb
+Size: 1359198
+SHA256: 047eaa5fac131731b7bf63fa969838f8aa7561fb746f6254e6b77a28479f9bb3
+SHA1: 0220bea2198aa2cc4727a590a798323809beac9f
+MD5sum: 3c569f26ff1cb07c5b27e138a58d4501
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
@@ -321,4 +321,20 @@ SHA256: 9241212cf151c321c27bb5c5b001a6d441804c6cbc4d6e1a8f73ae1ae8294981
 SHA1: 68727e19dc071c214922567a7a32024d8345d81a
 MD5sum: 0986aaeab01e93d4f82615be6398a1ce
 Description: Professional Web-to-ROS2 Bridge
+
+Package: ros-humble-tf2-ros
+Version: 0.25.22-1jammy.20260804.183346
+Architecture: arm64
+Maintainer: "Chris Lalancette" <clalancette@openrobotics.org>
+Installed-Size: 1478
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-message-filters, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-tf2, ros-humble-tf2-msgs, ros-humble-ros-workspace
+Homepage: http://www.ros.org/wiki/tf2_ros
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-tf2-ros/ros-humble-tf2-ros_0.25.22-1jammy.20260804.183346_arm64.deb
+Size: 295386
+SHA256: 77b5e0fbd7534992f4efbf54b797380ffb06e5737a1bab33445522fa07f537f4
+SHA1: 74d839cfe0527cc4fcc04a8ef56aad0b37846339
+MD5sum: 7dbea931e20c28a3f9d60ca56c8ba64a
+Description: This package contains the C++ ROS bindings for the tf2 library
 
