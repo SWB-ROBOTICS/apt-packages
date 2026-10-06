@@ -1,5 +1,5 @@
 Package: ros-humble-swb-person-follower
-Version: 0.0.0-0jammy+main17cix
+Version: 0.0.0-0jammy+main18cix
 Architecture: arm64
 Maintainer: "Muhammad Alhaddad" <ubuntu.msa@gmail.com>
 Installed-Size: 33774
@@ -7,10 +7,10 @@ Depends: ros-humble-action-msgs, ros-humble-geometry-msgs, ros-humble-std-msgs, 
 Homepage: https://index.ros.org/p/swb_person_follower/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-person-follower/ros-humble-swb-person-follower_0.0.0-0jammy+main17cix_arm64.deb
-Size: 19946506
-SHA256: fd1a90d29fd4d04166217a070c04f4d86846cc40498af94e23fd48a194614339
-SHA1: b64231ac0e6ae92d8b98586bcde2e55e60f5dd90
-MD5sum: a424f5912b6f9ca7b3b9eefadb796d5a
+Filename: pool/main/r/ros-humble-swb-person-follower/ros-humble-swb-person-follower_0.0.0-0jammy+main18cix_arm64.deb
+Size: 19946502
+SHA256: 31ed388c1259c4831ad85bf2403e890f3ba77bb17307e97d0ea2e7ced35c5374
+SHA1: 1f604e4ec41b5353ce696ef7f3ff94aeab4b264e
+MD5sum: b20236967e54a147656d16d6ebee1931
 Description: TODO: Package description
 
