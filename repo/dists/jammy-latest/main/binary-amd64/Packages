@@ -192,19 +192,19 @@ MD5sum: 7c060c2112133894f8571fce4bf57d7c
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main73
+Version: 1.0.0-0jammy+main74
 Architecture: amd64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 11852
+Installed-Size: 12229
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros (<< 0.25.23), ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-urdf, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main73_amd64.deb
-Size: 1406616
-SHA256: 3860f23c2314438fbf723fb188a9d4f4e16c5471b7bab9f8f74af4a3dd610377
-SHA1: 4ccf94bfb1b67db8eba94d39339632522dfad630
-MD5sum: 49d2988723657cb09791f856e7d7d646
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main74_amd64.deb
+Size: 1496980
+SHA256: 731120b47510ce6d0cf4a408c7565a8ecbacd67c4b82414f25c4ded5a97d1a18
+SHA1: c2e4878dc9be71502de8d93013f6fe07ba362b19
+MD5sum: 8ae04063a07255bd490915382a2e7a84
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
