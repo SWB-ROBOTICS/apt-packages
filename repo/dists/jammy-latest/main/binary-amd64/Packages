@@ -64,20 +64,21 @@ MD5sum: fa09bf44aa00138f33b8c397d11b61a5
 Description: ROS2 Behavior Tree with YONO and Navigation Wait
 
 Package: ros-humble-swb-interactions
-Version: 0.1.0-0jammy+main10
+Version: 0.2.0-0jammy+main11
 Architecture: amd64
 Maintainer: "benni" <mohammdbenni4@gmail.com>
-Installed-Size: 57
-Depends: ros-humble-rclpy, ros-humble-rosidl-runtime-py, ros-humble-std-msgs
+Installed-Size: 585
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-rosidl-runtime-py
 Homepage: https://index.ros.org/p/swb_interactions/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.1.0-0jammy+main10_amd64.deb
-Size: 8432
-SHA256: 640942ddce8a9ea7e845ae44e86f2708de82e4f13ea4db333473a0cb86564b2f
-SHA1: cd973adb21e61529c31e0ce4190dee92cd5e9c3a
-MD5sum: 2d84d1e2e99fc4211eb748c426600589
+Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.2.0-0jammy+main11_amd64.deb
+Size: 58286
+SHA256: dae1c8c7f4da2fc5ec1ffcf8bedf55edc7c77d1d345bb3764e90f8735f1e5954
+SHA1: 5b93c39a28231d6e2ed0a90ce1416ed3f0ff5e33
+MD5sum: 21ed08d9a8bafced90cae85729ea1b78
 Description: Pauses the swb_robot waypoint mission while someone is using one of the robot's screens, and resumes it afterwards.
+ The screens report through the /interactions/set_asking service.
 
 Package: ros-humble-swb-laser-scan-merger
 Version: 1.0.0-0jammy+main4
