@@ -15,7 +15,7 @@ MD5sum: 11fb33d00b497a25700e21217151b183
 Description: The rplidar ros2 package, support rplidar A2/A1 and A3/S1
 
 Package: ros-humble-swb-battery
-Version: 1.0.0-0jammy+main10
+Version: 1.0.0-0jammy+main11
 Architecture: amd64
 Maintainer: "orangepi" <orangepi@todo.todo>
 Installed-Size: 775
@@ -23,11 +23,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libpytho
 Homepage: https://index.ros.org/p/swb_battery/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-battery/ros-humble-swb-battery_1.0.0-0jammy+main10_amd64.deb
-Size: 124742
-SHA256: 6390e23a57a22912480988a4b16c3df911716f50dd44538ab538e346eb3abe07
-SHA1: 78f0b845102cef2e46e8e0e9e2fead97296d4c18
-MD5sum: 62ad4062742dd4323da76a5ca91d69ba
+Filename: pool/main/r/ros-humble-swb-battery/ros-humble-swb-battery_1.0.0-0jammy+main11_amd64.deb
+Size: 125148
+SHA256: 5b4c7cf2ec12ae0d1aefe5b0633820d235b7f288a285da3eba47d34b277e299a
+SHA1: fdbb3d3c3e8b1d03d0a1a85ed1a9d86ed0490ae1
+MD5sum: 43c32878f0456e0b2964d756fb53f559
 Description: A package for interfacing with JBD (Jiangsu BaoDun) battery management systems.
  This package provides a C++ library for communicating with JBD batteries over serial communication, allowing reading of battery parameters such as voltage, current, temperature, and cell voltages.
 
