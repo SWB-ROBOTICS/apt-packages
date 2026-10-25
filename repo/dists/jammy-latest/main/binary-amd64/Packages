@@ -64,7 +64,7 @@ MD5sum: fa09bf44aa00138f33b8c397d11b61a5
 Description: ROS2 Behavior Tree with YONO and Navigation Wait
 
 Package: ros-humble-swb-interactions
-Version: 0.2.0-0jammy+main11
+Version: 0.2.0-0jammy+main12
 Architecture: amd64
 Maintainer: "benni" <mohammdbenni4@gmail.com>
 Installed-Size: 585
@@ -72,11 +72,11 @@ Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstd
 Homepage: https://index.ros.org/p/swb_interactions/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.2.0-0jammy+main11_amd64.deb
-Size: 58286
-SHA256: dae1c8c7f4da2fc5ec1ffcf8bedf55edc7c77d1d345bb3764e90f8735f1e5954
-SHA1: 5b93c39a28231d6e2ed0a90ce1416ed3f0ff5e33
-MD5sum: 21ed08d9a8bafced90cae85729ea1b78
+Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.2.0-0jammy+main12_amd64.deb
+Size: 58268
+SHA256: 0cee7ece573b59cc110f0a062d4996651eb2f3808d55febcc6ca0ae27dedd07a
+SHA1: 5e93b3567a6982eb3cda232686631d193edcef2a
+MD5sum: ad02d6591922a108b56a695d9e2c436e
 Description: Pauses the swb_robot waypoint mission while someone is using one of the robot's screens, and resumes it afterwards.
  The screens report through the /interactions/set_asking service.
 
