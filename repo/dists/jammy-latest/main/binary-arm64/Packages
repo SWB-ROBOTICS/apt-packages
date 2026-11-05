@@ -193,19 +193,19 @@ MD5sum: 9c15107c56e692f7ff6ecae584019e33
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
-Version: 1.0.0-0jammy+main88
+Version: 1.0.0-0jammy+main89
 Architecture: arm64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 15966
+Installed-Size: 15970
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-ament-index-cpp, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav-msgs, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-rcpputils, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-twist-mux, ros-humble-urdf, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main88_arm64.deb
-Size: 1955492
-SHA256: e5864a339e407dd573965429507e96b08b784985dab8907054d55fe989fe01f6
-SHA1: 7de1982e152e2983d11dc306c22723559f9cb11f
-MD5sum: 69ac24504bbbf4e1a4af4c9203f1c7d1
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.0.0-0jammy+main89_arm64.deb
+Size: 1957338
+SHA256: 2ad302c14be2a09c8e5477ab96647171368648dbf136be1ec88df7b126cc1a5c
+SHA1: 9d4a519dd123276b788b25650fb1b42a67020b6f
+MD5sum: 888de2731589b4027cf65046dfa734c3
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
