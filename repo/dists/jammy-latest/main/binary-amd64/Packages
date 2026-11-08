@@ -308,19 +308,19 @@ MD5sum: 1ee43da2ac1cb779e9ce5fdec778d210
 Description: ROS 2 package for UART communication with ultrasonic sensor
 
 Package: ros-humble-swb-web-bridge
-Version: 0.0.1-0jammy+main47
+Version: 0.0.1-0jammy+main48
 Architecture: amd64
 Maintainer: "Manara Systems" <dev@manara.com>
-Installed-Size: 8265
+Installed-Size: 8268
 Depends: libc6 (>= 2.34), libcpp-httplib0 (>= 0.10.3+ds), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), zlib1g (>= 1:1.2.0), libboost-dev, libcpp-httplib-dev, libwebsocketpp-dev, ros-humble-ament-index-cpp, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rcl, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rcpputils, ros-humble-rmw, ros-humble-rosidl-typesupport-cpp, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
 Homepage: https://index.ros.org/p/swb_web_bridge/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-web-bridge/ros-humble-swb-web-bridge_0.0.1-0jammy+main47_amd64.deb
-Size: 1976524
-SHA256: f8534e822a5b1c95b73b116e673a748cafe99f7da949c1f44bbf48100f7abfb7
-SHA1: 3e52c7cb4875cdaf563def802e18b79ff556a9f3
-MD5sum: 681a7e1e71c5cc6dcfbd1ab6a5116f91
+Filename: pool/main/r/ros-humble-swb-web-bridge/ros-humble-swb-web-bridge_0.0.1-0jammy+main48_amd64.deb
+Size: 1976974
+SHA256: d04020985bdc4d1652d30ef80863c8c41fd574a29f2f153c030d146b1380ecb8
+SHA1: 5424b429f86d0071ade59f96d2f189f57f247a2a
+MD5sum: 7a767d78e837734bfa8476146e60fdee
 Description: Professional Web-to-ROS2 Bridge
 
 Package: ros-humble-tf2-ros
