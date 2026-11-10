@@ -208,18 +208,18 @@ MD5sum: 35864cf5986ae980bc14a8fe83bfdb09
 Description: TODO: Package description
 
 Package: ros-humble-swb-serial
-Version: 1.2.1-0jammy
+Version: 1.2.2-0jammy
 Architecture: amd64
 Maintainer: "William Woodall" <william@osrfoundation.org>
-Installed-Size: 245
+Installed-Size: 252
 Homepage: http://wjwwood.github.com/serial/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-serial/ros-humble-swb-serial_1.2.1-0jammy_amd64.deb
-Size: 47474
-SHA256: 402ffa69736497c7c2ed9d9568570caa146a1dbe5236d473d1e2f8e131513ca8
-SHA1: d73b48f4987caaddc91263f88cb11c3e488e90fb
-MD5sum: f95595a7d45099eb809eea0ad3850199
+Filename: pool/main/r/ros-humble-swb-serial/ros-humble-swb-serial_1.2.2-0jammy_amd64.deb
+Size: 48346
+SHA256: 42ffd91b29b4427c893cba941146903a53313213d61256798d5bdd2b04c0d40d
+SHA1: be03bfca9249cb5e9c515fcdf100dbf4196214ae
+MD5sum: 69e8c8ee31b1cc5698f17a7cab9792ec
 Description: Serial is a cross-platform, simple to use library for using serial ports on computers.
  This library provides a C++, object oriented interface for interacting with RS-232 like devices on Linux and Windows.
 
