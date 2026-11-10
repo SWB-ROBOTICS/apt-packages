@@ -193,7 +193,7 @@ MD5sum: 189451b2e56affb301293396d7719260
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-self-filter
-Version: 1.0.0-0jammy
+Version: 1.0.1-0jammy
 Architecture: arm64
 Maintainer: "Lorenzo Terenzi" <lterenzi@ethz.ch>
 Installed-Size: 1260
@@ -201,11 +201,11 @@ Depends: libassimp5 (>= 5.2.2~ds0), libboost-filesystem1.74.0 (>= 1.74.0), libbu
 Homepage: http://ros.org/wiki/robot_self_filter
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot-self-filter/ros-humble-swb-robot-self-filter_1.0.0-0jammy_arm64.deb
-Size: 283408
-SHA256: a5abed537d5be78606b44ea15bcf4e5eeb7675a67200fa8da0e570dd9a7c377b
-SHA1: 2522e9a7236a37c7d9077e788092fd0794797500
-MD5sum: 80539f6653087684b1dbee417e89c589
+Filename: pool/main/r/ros-humble-swb-robot-self-filter/ros-humble-swb-robot-self-filter_1.0.1-0jammy_arm64.deb
+Size: 283382
+SHA256: 658f021caf0edf8fa980ce60ad6ceb073a0bb9e2cf3f519c46ee0a90570d865a
+SHA1: 044d2d41b36c1c8b50c54101d13dc468853eba31
+MD5sum: 93526ba77bf7dda36945aad2875a67e5
 Description: Filters the robot's body out of point clouds.
 
 Package: ros-humble-swb-rplidar-filter
