@@ -193,19 +193,19 @@ MD5sum: b3ab7bc9de67a17c1e14d0b4fdb5d05d
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
-Version: 1.1.0-0jammy+main93
+Version: 1.2.0-0jammy+main94
 Architecture: arm64
 Maintainer: "root" <root@todo.todo>
-Installed-Size: 15980
-Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-ament-index-cpp, ros-humble-controller-manager, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav-msgs, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-rcpputils, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-rviz2, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-twist-mux, ros-humble-urdf, ros-humble-xacro
+Installed-Size: 16496
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsqlite3-0 (>= 3.6.5), libstdc++6 (>= 11), ros-humble-fastcdr, python3-yaml, ros-humble-ament-index-cpp, ros-humble-controller-manager, ros-humble-diagnostic-msgs, ros-humble-diff-drive-controller, ros-humble-foxglove-bridge, ros-humble-geometry-msgs, ros-humble-joint-state-broadcaster, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-nav-msgs, ros-humble-nav2-bringup, ros-humble-nav2-lifecycle-manager, ros-humble-nav2-msgs, ros-humble-orbbec-camera, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-rcpputils, ros-humble-robot-localization, ros-humble-robot-state-publisher, ros-humble-ros2launch, ros-humble-ros2pkg, ros-humble-ros2run, ros-humble-ros2topic, ros-humble-rosidl-default-runtime, ros-humble-rosidl-typesupport-introspection-cpp, ros-humble-rviz2, ros-humble-sensor-msgs, ros-humble-sllidar-ros2, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-battery, ros-humble-swb-bldc-wheel, ros-humble-swb-interactions, ros-humble-swb-laser-scan-merger, ros-humble-swb-mqtt-bridge, ros-humble-swb-pcl-processor, ros-humble-swb-power, ros-humble-swb-power-interfaces, ros-humble-swb-rplidar-filter, ros-humble-swb-slam-toolbox, ros-humble-swb-web-bridge, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-topic-tools, ros-humble-topic-tools-interfaces, ros-humble-twist-mux, ros-humble-urdf, ros-humble-xacro
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.1.0-0jammy+main93_arm64.deb
-Size: 1958610
-SHA256: 58f805ff48d4d92cbc3f3ecd1718be376015f0399c19ac4780001ce796a74d8b
-SHA1: 0e9735f8aca02356ab920f960ddeef303bb12d03
-MD5sum: 89300d7c8f42ea41510b21e932f77063
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.2.0-0jammy+main94_arm64.deb
+Size: 2058566
+SHA256: eb15baff6773d026ecf2b513d8008414adcd0ffef5de0dd7bbab2b6732c8fb18
+SHA1: e78858f4e849865d87ce7c3b7815ae9eaba7f50d
+MD5sum: 345a2cc77320ffb20da8d2531d8b987e
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
