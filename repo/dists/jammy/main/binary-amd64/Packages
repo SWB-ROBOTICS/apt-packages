@@ -177,7 +177,7 @@ MD5sum: a6375bd41c62226fd01b64e3b2ea89ed
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
-Version: 1.1.0-0jammy
+Version: 2.1.0-0jammy
 Architecture: amd64
 Maintainer: "root" <root@todo.todo>
 Installed-Size: 16488
@@ -185,11 +185,11 @@ Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libsq
 Homepage: https://index.ros.org/p/swb_robot/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_1.1.0-0jammy_amd64.deb
-Size: 2050158
-SHA256: 4b65286017b323f02700117b6e66c6787232c9be138c66f88adf4852beedcab9
-SHA1: 19d34a8908ef02ab318a775ab93c0507be0c0185
-MD5sum: f8fba2b3266c807b922e9291f9cc494e
+Filename: pool/main/r/ros-humble-swb-robot/ros-humble-swb-robot_2.1.0-0jammy_amd64.deb
+Size: 2049372
+SHA256: a04973f2c6c2159223c770d8b5165f7c7687bac8a58cdf12dc1a3008ebfcb377
+SHA1: 5ba8d93fadf947d4594475d744e2c644a965b4f0
+MD5sum: aac22639f56b5c81c41bb9e2c0ba2c8c
 Description: TODO: Package description
 
 Package: ros-humble-swb-robot-description
