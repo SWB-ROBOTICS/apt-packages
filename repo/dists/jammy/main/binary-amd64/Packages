@@ -112,36 +112,36 @@ MD5sum: 04c9204d9112d4335430e37bebc8118f
 Description: PCL processor in ROS 2
 
 Package: ros-humble-swb-power
-Version: 1.0.0-0jammy
+Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
-Installed-Size: 1055
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-lifecycle, ros-humble-std-msgs, ros-humble-swb-power-interfaces
+Installed-Size: 1190
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc++6 (>= 11), ros-humble-geometry-msgs, ros-humble-launch-ros, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-lifecycle, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-swb-power-interfaces
 Homepage: https://index.ros.org/p/swb_power/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.0.0-0jammy_amd64.deb
-Size: 247870
-SHA256: 109f2f44e32fbe096da59030a403613f42d040bdedee364b35038701f15feb1e
-SHA1: fc8b3668a816df80c40fc2e806b1f216ce183459
-MD5sum: 0cf92cf760a9274e8f568c3fd1a63c3d
-Description: New monolithic power node package scaffold under power_sdk.
+Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.1.0-0jammy_amd64.deb
+Size: 276378
+SHA256: ed7a17d7e4aec88097890d6fc37d7c3fa41203a25dcbd86d7a3050d84962ef56
+SHA1: 8cbe49edfa05ed65a3a6a761ccdeed5d272c51fe
+MD5sum: 9a5c02c5d1c4732974d10ba71f6428dd
+Description: Lifecycle ROS 2 node for SWB robots: IR-guided autonomous docking, timed undocking and charging relay control.
 
 Package: ros-humble-swb-power-interfaces
-Version: 1.0.0-0jammy
+Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
-Installed-Size: 2564
+Installed-Size: 2565
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-builtin-interfaces, ros-humble-rosidl-default-runtime, ros-humble-unique-identifier-msgs
 Homepage: https://index.ros.org/p/swb_power_interfaces/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.0.0-0jammy_amd64.deb
-Size: 154514
-SHA256: 3d234ac27d02b45aca85515734a7dcf2a41d7496ed77ffd1d14706d8cc7b0ff6
-SHA1: a38d645be7247bae071a9125bbf0cbdc1638bfbb
-MD5sum: 2c775ec4832c5cb65738d48b8a974f12
-Description: Interface package scaffold for the new power_sdk architecture.
+Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.1.0-0jammy_amd64.deb
+Size: 154898
+SHA256: 13cfba0429ec82446d5df1265e749ba395b7b3d8c5b0768f4657f5282c9b96d1
+SHA1: 0d510ec3839f961c218c02ae1084dd206f32a22c
+MD5sum: a6375bd41c62226fd01b64e3b2ea89ed
+Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
 Version: 1.0.0-0jammy
