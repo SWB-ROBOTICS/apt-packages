@@ -48,20 +48,21 @@ MD5sum: 2010f536921c805ea0da5e7321b9e53c
 Description: ROS 2 package for RS485 communication with the ZLAC8015D motor driver
 
 Package: ros-humble-swb-interactions
-Version: 0.0.3-0jammy
+Version: 0.2.0-0jammy
 Architecture: amd64
 Maintainer: "benni" <mohammdbenni4@gmail.com>
-Installed-Size: 375
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-rclcpp, ros-humble-std-msgs
+Installed-Size: 585
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-rosidl-runtime-py
 Homepage: https://index.ros.org/p/swb_interactions/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.0.3-0jammy_amd64.deb
-Size: 99774
-SHA256: a05ceccb40974fbe254951c9de2ef89fd4deeb551a1fe1e7c3f94fc91f0de509
-SHA1: a7d292b250e7f317df357ad4da22b14676deacef
-MD5sum: 81532c6808e29231c4e59e80206aeadd
-Description: TODO: Package description
+Filename: pool/main/r/ros-humble-swb-interactions/ros-humble-swb-interactions_0.2.0-0jammy_amd64.deb
+Size: 58266
+SHA256: 3fabec697acacb0686e63179e2f4d8bded2e8ab471b061e8339f0f5d39b2df57
+SHA1: c36d6575218769d53e54b2c627e86a0ff4fd298f
+MD5sum: 22ce3c2549fe43d4160b8037babe78e9
+Description: Pauses the swb_robot waypoint mission while someone is using one of the robot's screens, and resumes it afterwards.
+ The screens report through the /interactions/set_asking service.
 
 Package: ros-humble-swb-laser-scan-merger
 Version: 1.0.0-0jammy
