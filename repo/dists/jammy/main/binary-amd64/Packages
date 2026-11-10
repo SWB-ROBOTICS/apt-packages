@@ -128,6 +128,22 @@ SHA1: a84150dedc805bbfceab9d1200f12d2c3980d477
 MD5sum: a219350f8890f770cfacc0fdb99cee6b
 Description: PCL processor in ROS 2
 
+Package: ros-humble-swb-person-follower
+Version: 0.1.0-0jammy
+Architecture: amd64
+Maintainer: "Muhammad Alhaddad" <ubuntu.msa@gmail.com>
+Installed-Size: 34085
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, python3-matplotlib, python3-numpy, python3-opencv, python3-pip, python3-psutil, python3-yaml, ros-humble-action-msgs, ros-humble-ament-index-python, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-launch-ros, ros-humble-lifecycle-msgs, ros-humble-nav2-lifecycle-manager, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs
+Homepage: https://index.ros.org/p/swb_person_follower/#humble
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-humble-swb-person-follower/ros-humble-swb-person-follower_0.1.0-0jammy_amd64.deb
+Size: 20743012
+SHA256: 0e928644e5e6eb1bdb4310047123d3975c39fe35e9efd3c6edff334b86d91910
+SHA1: 779b544378b3cbc5a32235dd932790ca884143d4
+MD5sum: a4926e45daa3711264dbf64d121b5a58
+Description: TODO: Package description
+
 Package: ros-humble-swb-power
 Version: 1.1.0-0jammy
 Architecture: amd64
