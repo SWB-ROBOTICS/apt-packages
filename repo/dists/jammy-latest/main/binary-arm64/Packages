@@ -161,7 +161,7 @@ MD5sum: 4dd5dfa98ce35e32ffe6c52e9793978b
 Description: ROS2 Behavior Tree with YONO and Navigation Wait
 
 Package: ros-humble-swb-power
-Version: 1.0.0-0jammy+main14
+Version: 1.1.0-0jammy+main15
 Architecture: arm64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
 Installed-Size: 1132
@@ -169,15 +169,15 @@ Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), liblgpio1 (>= 0.1.6.1), libstdc+
 Homepage: https://index.ros.org/p/swb_power/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.0.0-0jammy+main14_arm64.deb
-Size: 260142
-SHA256: 450a5f1fc3fc7d6c25fb73d82ee2fa69ec44fa79d0eaee510c9b8336e5889924
-SHA1: a0a1a88fa0388658f09324066d91438c6566f70f
-MD5sum: 4d00419d6e369ada968aa6e9a492d141
+Filename: pool/main/r/ros-humble-swb-power/ros-humble-swb-power_1.1.0-0jammy+main15_arm64.deb
+Size: 260164
+SHA256: fdf7e18b218fd1fa90e66a55c73b28b3e0b6392c6edbf261e7147dac776e5680
+SHA1: b0c5b2fd26af32d798426d7dc0a3159621f9e60e
+MD5sum: 54c1e350296ba0966da9e7247d587ce0
 Description: Lifecycle ROS 2 node for SWB robots: IR-guided autonomous docking, timed undocking and charging relay control.
 
 Package: ros-humble-swb-power-interfaces
-Version: 1.0.0-0jammy+main14
+Version: 1.1.0-0jammy+main15
 Architecture: arm64
 Maintainer: "Mohammed Almsitef" <almsitefmohammed@gmail.com>
 Installed-Size: 2495
@@ -185,11 +185,11 @@ Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libst
 Homepage: https://index.ros.org/p/swb_power_interfaces/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.0.0-0jammy+main14_arm64.deb
-Size: 153978
-SHA256: b6c490d6dcdc37a5ebec02daaae32af2e1c53782d1cb3d6db09d015d4e5f61bb
-SHA1: 6b5a950f62adcf93f7b2743ebb805536b22dbfd9
-MD5sum: 9c15107c56e692f7ff6ecae584019e33
+Filename: pool/main/r/ros-humble-swb-power-interfaces/ros-humble-swb-power-interfaces_1.1.0-0jammy+main15_arm64.deb
+Size: 153970
+SHA256: 5fa5715d97d2eb2302cfc09a818e58cf262cc2967c2c2348a2f67b6da7bd5811
+SHA1: 83614c472d5f0a66b38b7a61da26a2ce2c195450
+MD5sum: b3ab7bc9de67a17c1e14d0b4fdb5d05d
 Description: Messages and actions (Dock, Undock, docking/charging/IR status) for the SWB swb_power docking and charging node.
 
 Package: ros-humble-swb-robot
