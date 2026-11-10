@@ -192,7 +192,7 @@ MD5sum: f9ae8c5baf95977b1ff5e7b65e011b8f
 Description: Filters the robot's body out of point clouds.
 
 Package: ros-humble-swb-rplidar-filter
-Version: 0.0.0-0jammy
+Version: 0.1.0-0jammy
 Architecture: amd64
 Maintainer: "ros" <ros@todo.todo>
 Installed-Size: 39
@@ -200,11 +200,11 @@ Depends: ros-humble-rclpy, ros-humble-sensor-msgs
 Homepage: https://index.ros.org/p/swb_rplidar_filter/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-rplidar-filter/ros-humble-swb-rplidar-filter_0.0.0-0jammy_amd64.deb
-Size: 5238
-SHA256: 7a19b5af32bac77f0b184817f860be4cce1a21c8a814ca3172f33139e0117f91
-SHA1: fc35078f2e54c6e9df7e8e47c1551ca138c80b32
-MD5sum: 35864cf5986ae980bc14a8fe83bfdb09
+Filename: pool/main/r/ros-humble-swb-rplidar-filter/ros-humble-swb-rplidar-filter_0.1.0-0jammy_amd64.deb
+Size: 5470
+SHA256: 3b2edf8e30147664ba3b310f8292a5f5a69a2228b142c77f91098f89e0c8da95
+SHA1: 3abc88c761ca13c070f5506d2ad3af5e4db00473
+MD5sum: e31cf65e4ed7ded2ae66a54453c22003
 Description: TODO: Package description
 
 Package: ros-humble-swb-serial
