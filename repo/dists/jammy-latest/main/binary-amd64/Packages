@@ -97,7 +97,7 @@ MD5sum: 4c482ef9a4b3f0b5a1880ff1b7ece754
 Description: A multithreaded laser scan merger, aims to be blazingly fast.
 
 Package: ros-humble-swb-mqtt-bridge
-Version: 0.0.0-0jammy+main7
+Version: 0.1.0-0jammy+main8
 Architecture: amd64
 Maintainer: "orangepi" <opi_b@swb.com>
 Installed-Size: 380
@@ -105,11 +105,11 @@ Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), lib
 Homepage: https://index.ros.org/p/swb_mqtt_bridge/#humble
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-humble-swb-mqtt-bridge/ros-humble-swb-mqtt-bridge_0.0.0-0jammy+main7_amd64.deb
-Size: 122022
-SHA256: 27dd36ab201f60400c38543cfa6ef1a6a5c26dd4094db385aae3a0f9b1044343
-SHA1: 7950cf524f3d4870e16751be875f24c6b3524f87
-MD5sum: 52f39cf9fc3b269d9bb52efd7d298de1
+Filename: pool/main/r/ros-humble-swb-mqtt-bridge/ros-humble-swb-mqtt-bridge_0.1.0-0jammy+main8_amd64.deb
+Size: 122030
+SHA256: 08275a8ff0a9d7472aa2096e284485057801ee832dc2d6c169f1fec9e52acd5e
+SHA1: 08a263b792b9a30e49979e9e6cb2d3801b1dc57c
+MD5sum: 254b71a206d08d17ab5db1210a489a91
 Description: TODO: Package description
 
 Package: ros-humble-swb-pcl-processor
